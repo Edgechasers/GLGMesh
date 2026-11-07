@@ -108,6 +108,10 @@ Node/npm are only needed to rebuild the bundled viewer; they are not runtime req
 
 ## License and credits
 
-GLGMesh’s original code is available under the [MIT License](LICENSE). Included third-party code retains its own notices; downloaded models and dependencies have separate licenses and access conditions. The GLGMesh license does not relicense their weights, outputs or restrictions. See [third-party components](THIRD_PARTY.md).
+GLGMesh’s original code is available under the [GLGMesh Attribution and Commercial Software License 1.0](LICENSE), a custom source-available license. Commercial software integrations, paid applications, APIs and SaaS using GLGMesh code require a separate written license from **Edgechasers**: [glgmesh@edgechasers.com](mailto:glgmesh@edgechasers.com).
+
+You may create and use assets for **any purpose, including commercial projects and asset sales**, without a separate GLGMesh commercial license, provided you credit **“powered by GLGMesh”** and comply with applicable third-party terms. Using GLGMesh as an asset-production tool for yourself or clients is included in this permission. All other uses of GLGMesh code also require explicit attribution. Credits, an About page or accompanying documentation can satisfy the license’s placement requirements; an artwork watermark is not required. See [licensing examples](docs/LICENSING.md).
+
+Included third-party code, downloaded models and dependencies retain their individual licenses and access conditions, which you must comply with. GLGMesh’s asset permission does not override upstream restrictions on weights or outputs. See [third-party components](THIRD_PARTY.md). Earlier MIT releases retain the rights granted under MIT.
 
 The showcase media illustrates the tool; it is not a downloadable model pack. Its artwork is separate from the code license; see [showcase details](docs/SHOWCASE.md).

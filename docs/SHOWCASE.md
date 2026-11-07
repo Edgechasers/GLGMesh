@@ -14,7 +14,9 @@ The animation is 120 frames at 1600 × 560, with an eight-second seamless rotati
 
 These are different pipeline outputs at different budgets. TRELLIS retains substantially more triangles. The comparison illustrates appearance and silhouette, not equal-cost or equal-budget performance. The Hunyuan example uses Medium mode’s supported optional Hunyuan Paint texture (`--texture rgb`), rather than its default MV-Adapter texture; this does not claim all three examples came from one fresh release run.
 
-The [provenance manifest](media/mireling-comparison.json) records source-file hashes and render settings without local filesystem paths. The source GLBs, standalone original concept file and raw render frames are not distributed; the reference is embedded in the showcase media. The code’s MIT license does not grant a separate license to the depicted character artwork.
+The [provenance manifest](media/mireling-comparison.json) records source-file hashes and render settings without local filesystem paths. The source GLBs, standalone original concept file and raw render frames are not distributed; the reference is embedded in the showcase media. The [GLGMesh software license](../LICENSE) does not grant a separate license to this pre-existing showcase artwork.
+
+GLGMesh Production V2 showcase attribution: **powered by GLGMesh**.
 
 ## Regenerate a turntable
 

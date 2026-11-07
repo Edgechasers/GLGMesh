@@ -1,21 +1,167 @@
-MIT License
+GLGMesh Attribution and Commercial Software License
+Version 1.0 - 7 November 2026
 
 Copyright (c) 2026 GLGMesh contributors
+Commercial licensing: Edgechasers <glgmesh@edgechasers.com>
 
-Permission is hereby granted, free of charge, to any person obtaining a copy
-of this software and associated documentation files (the "Software"), to deal
-in the Software without restriction, including without limitation the rights
-to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
-copies of the Software, and to permit persons to whom the Software is
-furnished to do so, subject to the following conditions:
+1. Scope and definitions
 
-The above copyright notice and this permission notice shall be included in all
-copies or substantial portions of the Software.
+This License applies to original GLGMesh code and accompanying documentation
+expressly distributed under this License (the "Software"), including copies,
+modifications and portions of that code. The copyright holders grant only
+rights they own or are authorized to grant. All other rights are reserved.
 
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
-IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
-FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
-AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
-LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
-OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+"Third-Party Materials" means software, libraries, dependencies, model code,
+model weights, datasets and other materials supplied by other rights holders,
+including third-party portions of modified files. Third-Party Materials are
+not relicensed by this License and remain subject to their individual terms.
+
+"Generated Assets" means meshes, textures, renders, animations and other
+creative assets that you create or process using the Software. Generated
+Assets do not include the Software, model weights or other software merely
+copied or embedded in an output. Bundled showcase media, example artwork and
+other pre-existing assets are not granted a new license by this definition.
+
+"Commercial Software Use" means incorporating, embedding, integrating,
+distributing, selling, licensing or otherwise using the Software or any
+portion of its code as part of a software product or service operated for
+commercial advantage or monetary compensation. This includes paid or
+commercially supported applications, plugins, SDKs, APIs, hosted services,
+SaaS, commercially operated internal software integrations, and services
+that expose GLGMesh functionality to third parties. Providing free access
+does not exempt an otherwise commercial software product or service.
+The asset-creation exception in Section 4 takes precedence over this
+definition.
+
+2. General permission
+
+Subject to all conditions of this License, you are granted a worldwide,
+non-exclusive, royalty-free permission to use, study, copy, modify and
+distribute the Software for purposes other than Commercial Software Use,
+and to create and use Generated Assets as permitted by Section 4.
+
+For every use of GLGMesh code, including private, educational, research,
+non-commercial, modified and redistributed uses, you must provide the
+explicit attribution required by Section 5. Retaining a copyright notice
+alone does not satisfy that attribution requirement.
+
+When distributing the Software or any portion of its code, you must include
+this License, retain copyright and third-party notices, identify your
+modifications, and preserve these conditions for the GLGMesh code and its
+modifications. You may add terms for your independently authored material
+only where they do not remove or conflict with these conditions or with
+applicable third-party licenses.
+
+3. Separate license for commercial software
+
+This License does not authorize Commercial Software Use. Before undertaking
+Commercial Software Use, you must obtain a separate written commercial
+license from Edgechasers. Contact:
+
+    Edgechasers
+    glgmesh@edgechasers.com
+
+Attribution, payment for another product, or simply sending a license request
+does not grant commercial software rights. The separate agreement must
+expressly authorize the intended use. Unless that agreement expressly varies
+the GLGMesh attribution terms, Section 5 continues to apply. A commercial
+license from Edgechasers cannot waive obligations owed to third-party rights
+holders.
+
+4. Generated Assets and commercial asset creation
+
+You may use, reproduce, modify, display, perform, distribute, sell and
+otherwise exploit Generated Assets for any purpose, including commercial
+purposes, subject to the attribution in Section 5 and applicable third-party
+rights and licenses in Section 6. No separate GLGMesh commercial license or
+royalty is required merely because an asset is used commercially.
+
+You may run GLGMesh as an asset-production tool to create assets for yourself,
+your organization or clients, including paid client work and batch processing.
+Selling those assets, or including them in paid games, films, applications,
+asset packs or other products, does not constitute Commercial Software Use
+when the product contains the assets rather than GLGMesh code or access to
+GLGMesh functionality. This exception does not authorize a commercial
+software integration or a hosted generation service covered by Section 3.
+
+The GLGMesh copyright holders claim no ownership of your Generated Assets
+merely because GLGMesh was used to create them. To the extent they hold any
+rights in such assets solely through GLGMesh's generation or processing,
+they grant permission to exercise those rights on the terms of this section.
+No ownership, copyrightability or third-party clearance is guaranteed.
+
+5. Required attribution
+
+The required attribution is the following exact text:
+
+    powered by GLGMesh
+
+For code use, provide this credit clearly and legibly in the product or
+service interface, an accessible About or Credits page, or its primary
+user-facing documentation. For a library, SDK, command-line tool or use
+without a conventional interface, include it in the primary documentation
+or accompanying notice. Include it with distributed source code as well.
+For wholly private code use, retain it in the project's documentation or
+internal notices; no public disclosure of private work is required.
+
+For Generated Assets, retain the credit in asset metadata or accompanying
+records. Whenever you distribute, publish, display or use assets in a
+product, also provide the credit in a reasonably accessible location, such
+as the asset listing or description, accompanying README or attribution
+file, or the product's credits, About page or documentation. One clearly
+applicable credit may cover multiple GLGMesh assets in the same work or
+collection. A visual watermark on the asset itself is not required.
+
+When supplying Generated Assets to another person, include this attribution
+requirement and require that the credit be preserved in subsequent uses and
+redistributions, including modified versions. Do not remove or conceal
+existing GLGMesh attribution in a manner that defeats these requirements.
+
+These requirements apply to all purposes for which GLGMesh code is used,
+including purposes not specifically listed above, and to the asset permission
+in Section 4. They do not apply to independently obtained Third-Party
+Materials merely because GLGMesh also uses those materials.
+
+You may use the GLGMesh name solely as needed to provide this attribution
+and accurately identify the Software. No endorsement, sponsorship or other
+trademark permission is implied.
+
+6. Third-party compliance
+
+You must independently obtain and comply with the individual licenses and
+other applicable terms of all Third-Party Materials you use, load, modify,
+distribute or make available through GLGMesh. This includes their attribution,
+notice, source-code, redistribution, access, acceptable-use, commercial-use,
+territorial and output-related conditions, where applicable.
+
+Neither this License nor any GLGMesh commercial license replaces those terms
+or grants rights in third-party software, weights, inputs or outputs. The
+permission to use Generated Assets for any purpose is limited to rights
+GLGMesh's copyright holders can grant; it does not override restrictions
+imposed by an upstream model license or other third-party rights.
+
+See THIRD_PARTY.md and the notices accompanying each component. That index
+is informational and is not a substitute for the actual licenses. If a
+proposed combination or distribution cannot comply with both this License
+and the applicable third-party terms, it is not authorized by this License;
+obtain the necessary additional permissions or omit or replace the
+conflicting component. No third-party license notice may be removed.
+
+7. Earlier releases and separate rights
+
+This License applies to copies offered under these terms. It does not revoke
+or narrow rights already granted under the MIT License for earlier GLGMesh
+releases or code, nor rights independently granted by third-party licensors.
+It does not retroactively impose new attribution or commercial-license
+requirements on use authorized by those earlier grants.
+
+8. Disclaimer and limitation of liability
+
+TO THE MAXIMUM EXTENT PERMITTED BY APPLICABLE LAW, THE SOFTWARE IS PROVIDED
+"AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT
+NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR
+PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL EDGECHASERS, THE AUTHORS OR
+COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY,
+WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF
+OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.

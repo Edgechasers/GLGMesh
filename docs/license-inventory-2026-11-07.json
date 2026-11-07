@@ -1,0 +1,3079 @@
+{
+  "review_date": "2026-11-07",
+  "source_commit": "0879d3ea5efdd451949133a4136f36e743698a5e",
+  "scope": "Installed Python distribution metadata, frontend lockfile and pinned model manifest. Metadata is evidence, not legal clearance or a full audit of embedded native libraries. Installed extras may exceed the release requirements.",
+  "python_package_version_count": 123,
+  "python_packages": [
+    {
+      "name": "ConfigArgParse",
+      "version": "1.9.0",
+      "license_expression": null,
+      "license_field_first_line": "MIT",
+      "license_classifiers": [
+        "License :: OSI Approved :: MIT License"
+      ],
+      "environments": [
+        "torch"
+      ],
+      "metadata_paths": [
+        "runtime/envs/torch/lib/python3.12/site-packages/configargparse-1.9.0.dist-info/METADATA"
+      ],
+      "license_files": [
+        {
+          "path": "runtime/envs/torch/lib/python3.12/site-packages/configargparse-1.9.0.dist-info/licenses/LICENSE",
+          "sha256": "4a01a0948e46d7a94f44fda042d3e02e5319c2aa351357cd13492ca827e01d07"
+        }
+      ]
+    },
+    {
+      "name": "Flask",
+      "version": "3.1.3",
+      "license_expression": "BSD-3-Clause",
+      "license_field_first_line": "",
+      "license_classifiers": [],
+      "environments": [
+        "torch"
+      ],
+      "metadata_paths": [
+        "runtime/envs/torch/lib/python3.12/site-packages/flask-3.1.3.dist-info/METADATA"
+      ],
+      "license_files": [
+        {
+          "path": "runtime/envs/torch/lib/python3.12/site-packages/flask-3.1.3.dist-info/licenses/LICENSE.txt",
+          "sha256": "489a8e1108509ed98a37bb983e11e0f7e1d31f0bd8f99a79c8448e7ff37d07ea"
+        }
+      ]
+    },
+    {
+      "name": "ImageIO",
+      "version": "2.37.3",
+      "license_expression": "BSD-2-Clause",
+      "license_field_first_line": "",
+      "license_classifiers": [],
+      "environments": [
+        "torch"
+      ],
+      "metadata_paths": [
+        "runtime/envs/torch/lib/python3.12/site-packages/imageio-2.37.3.dist-info/METADATA"
+      ],
+      "license_files": [
+        {
+          "path": "runtime/envs/torch/lib/python3.12/site-packages/imageio-2.37.3.dist-info/licenses/LICENSE",
+          "sha256": "c453cf1368bb9e009e4d7e5334fc78511e665316a612ef54ee4fe1245678fe2c"
+        }
+      ]
+    },
+    {
+      "name": "ImageIO",
+      "version": "2.38.1",
+      "license_expression": "BSD-2-Clause",
+      "license_field_first_line": "",
+      "license_classifiers": [],
+      "environments": [
+        "hunyuan"
+      ],
+      "metadata_paths": [
+        "runtime/envs/hunyuan/lib/python3.12/site-packages/imageio-2.38.1.dist-info/METADATA"
+      ],
+      "license_files": [
+        {
+          "path": "runtime/envs/hunyuan/lib/python3.12/site-packages/imageio-2.38.1.dist-info/licenses/LICENSE",
+          "sha256": "c453cf1368bb9e009e4d7e5334fc78511e665316a612ef54ee4fe1245678fe2c"
+        }
+      ]
+    },
+    {
+      "name": "Jinja2",
+      "version": "3.1.6",
+      "license_expression": null,
+      "license_field_first_line": "",
+      "license_classifiers": [
+        "License :: OSI Approved :: BSD License"
+      ],
+      "environments": [
+        "hunyuan",
+        "torch"
+      ],
+      "metadata_paths": [
+        "runtime/envs/hunyuan/lib/python3.12/site-packages/jinja2-3.1.6.dist-info/METADATA",
+        "runtime/envs/torch/lib/python3.12/site-packages/jinja2-3.1.6.dist-info/METADATA"
+      ],
+      "license_files": [
+        {
+          "path": "runtime/envs/hunyuan/lib/python3.12/site-packages/jinja2-3.1.6.dist-info/licenses/LICENSE.txt",
+          "sha256": "3b49dcee4105eb37bac10faf1be260408fe85d252b8e9df2e0979fc1e094437b"
+        },
+        {
+          "path": "runtime/envs/torch/lib/python3.12/site-packages/jinja2-3.1.6.dist-info/licenses/LICENSE.txt",
+          "sha256": "3b49dcee4105eb37bac10faf1be260408fe85d252b8e9df2e0979fc1e094437b"
+        }
+      ]
+    },
+    {
+      "name": "MarkupSafe",
+      "version": "3.0.4",
+      "license_expression": "BSD-3-Clause",
+      "license_field_first_line": "",
+      "license_classifiers": [],
+      "environments": [
+        "hunyuan",
+        "torch"
+      ],
+      "metadata_paths": [
+        "runtime/envs/hunyuan/lib/python3.12/site-packages/markupsafe-3.0.4.dist-info/METADATA",
+        "runtime/envs/torch/lib/python3.12/site-packages/markupsafe-3.0.4.dist-info/METADATA"
+      ],
+      "license_files": [
+        {
+          "path": "runtime/envs/hunyuan/lib/python3.12/site-packages/markupsafe-3.0.4.dist-info/licenses/LICENSE.txt",
+          "sha256": "489a8e1108509ed98a37bb983e11e0f7e1d31f0bd8f99a79c8448e7ff37d07ea"
+        },
+        {
+          "path": "runtime/envs/torch/lib/python3.12/site-packages/markupsafe-3.0.4.dist-info/licenses/LICENSE.txt",
+          "sha256": "489a8e1108509ed98a37bb983e11e0f7e1d31f0bd8f99a79c8448e7ff37d07ea"
+        }
+      ]
+    },
+    {
+      "name": "PyMatting",
+      "version": "1.1.16",
+      "license_expression": null,
+      "license_field_first_line": "MIT",
+      "license_classifiers": [
+        "License :: OSI Approved :: MIT License"
+      ],
+      "environments": [
+        "hunyuan",
+        "torch"
+      ],
+      "metadata_paths": [
+        "runtime/envs/hunyuan/lib/python3.12/site-packages/pymatting-1.1.16.dist-info/METADATA",
+        "runtime/envs/torch/lib/python3.12/site-packages/pymatting-1.1.16.dist-info/METADATA"
+      ],
+      "license_files": [
+        {
+          "path": "runtime/envs/hunyuan/lib/python3.12/site-packages/pymatting-1.1.16.dist-info/licenses/LICENSE.md",
+          "sha256": "7be1f2cc0777ebabe655ba85c59ba1026ace94d7d906c791c5ada0e7b4b68323"
+        },
+        {
+          "path": "runtime/envs/torch/lib/python3.12/site-packages/pymatting-1.1.16.dist-info/licenses/LICENSE.md",
+          "sha256": "7be1f2cc0777ebabe655ba85c59ba1026ace94d7d906c791c5ada0e7b4b68323"
+        }
+      ]
+    },
+    {
+      "name": "PyYAML",
+      "version": "6.0.3",
+      "license_expression": null,
+      "license_field_first_line": "MIT",
+      "license_classifiers": [
+        "License :: OSI Approved :: MIT License"
+      ],
+      "environments": [
+        "hi3d",
+        "hunyuan",
+        "torch"
+      ],
+      "metadata_paths": [
+        "runtime/envs/hi3d/lib/python3.12/site-packages/pyyaml-6.0.3.dist-info/METADATA",
+        "runtime/envs/hunyuan/lib/python3.12/site-packages/pyyaml-6.0.3.dist-info/METADATA",
+        "runtime/envs/torch/lib/python3.12/site-packages/pyyaml-6.0.3.dist-info/METADATA"
+      ],
+      "license_files": [
+        {
+          "path": "runtime/envs/hi3d/lib/python3.12/site-packages/pyyaml-6.0.3.dist-info/licenses/LICENSE",
+          "sha256": "8d3928f9dc4490fd635707cb88eb26bd764102a7282954307d3e5167a577e8a4"
+        },
+        {
+          "path": "runtime/envs/hunyuan/lib/python3.12/site-packages/pyyaml-6.0.3.dist-info/licenses/LICENSE",
+          "sha256": "8d3928f9dc4490fd635707cb88eb26bd764102a7282954307d3e5167a577e8a4"
+        },
+        {
+          "path": "runtime/envs/torch/lib/python3.12/site-packages/pyyaml-6.0.3.dist-info/licenses/LICENSE",
+          "sha256": "8d3928f9dc4490fd635707cb88eb26bd764102a7282954307d3e5167a577e8a4"
+        }
+      ]
+    },
+    {
+      "name": "Werkzeug",
+      "version": "3.1.9",
+      "license_expression": "BSD-3-Clause",
+      "license_field_first_line": "",
+      "license_classifiers": [],
+      "environments": [
+        "torch"
+      ],
+      "metadata_paths": [
+        "runtime/envs/torch/lib/python3.12/site-packages/werkzeug-3.1.9.dist-info/METADATA"
+      ],
+      "license_files": [
+        {
+          "path": "runtime/envs/torch/lib/python3.12/site-packages/werkzeug-3.1.9.dist-info/licenses/LICENSE.txt",
+          "sha256": "3b49dcee4105eb37bac10faf1be260408fe85d252b8e9df2e0979fc1e094437b"
+        }
+      ]
+    },
+    {
+      "name": "accelerate",
+      "version": "1.12.0",
+      "license_expression": null,
+      "license_field_first_line": "Apache",
+      "license_classifiers": [
+        "License :: OSI Approved :: Apache Software License"
+      ],
+      "environments": [
+        "mv"
+      ],
+      "metadata_paths": [
+        "runtime/envs/mv/lib/python3.12/site-packages/accelerate-1.12.0.dist-info/METADATA"
+      ],
+      "license_files": [
+        {
+          "path": "runtime/envs/mv/lib/python3.12/site-packages/accelerate-1.12.0.dist-info/licenses/LICENSE",
+          "sha256": "c71d239df91726fc519c6eb72d318ec65820627232b2f796219e87dcf35d0ab4"
+        }
+      ]
+    },
+    {
+      "name": "addict",
+      "version": "2.4.0",
+      "license_expression": null,
+      "license_field_first_line": "UNKNOWN",
+      "license_classifiers": [
+        "License :: OSI Approved :: MIT License"
+      ],
+      "environments": [
+        "torch"
+      ],
+      "metadata_paths": [
+        "runtime/envs/torch/lib/python3.12/site-packages/addict-2.4.0.dist-info/METADATA"
+      ],
+      "license_files": [
+        {
+          "path": "runtime/envs/torch/lib/python3.12/site-packages/addict-2.4.0.dist-info/LICENSE",
+          "sha256": "ca488d33c512d0b226142090af90e89ae266a901a293f89fd642dfec931e22c1"
+        }
+      ]
+    },
+    {
+      "name": "annotated-types",
+      "version": "0.8.0",
+      "license_expression": "MIT",
+      "license_field_first_line": "",
+      "license_classifiers": [
+        "License :: OSI Approved :: MIT License"
+      ],
+      "environments": [
+        "torch"
+      ],
+      "metadata_paths": [
+        "runtime/envs/torch/lib/python3.12/site-packages/annotated_types-0.8.0.dist-info/METADATA"
+      ],
+      "license_files": [
+        {
+          "path": "runtime/envs/torch/lib/python3.12/site-packages/annotated_types-0.8.0.dist-info/licenses/LICENSE",
+          "sha256": "fe1049884b1a0d9342901e88e07f32925d24b3121d9972b6a6805fb9824b095d"
+        }
+      ]
+    },
+    {
+      "name": "anyio",
+      "version": "4.16.0",
+      "license_expression": "MIT",
+      "license_field_first_line": "",
+      "license_classifiers": [],
+      "environments": [
+        "torch"
+      ],
+      "metadata_paths": [
+        "runtime/envs/torch/lib/python3.12/site-packages/anyio-4.16.0.dist-info/METADATA"
+      ],
+      "license_files": [
+        {
+          "path": "runtime/envs/torch/lib/python3.12/site-packages/anyio-4.16.0.dist-info/licenses/LICENSE",
+          "sha256": "5361ac9dc58f2ef5fd2e9b09c68297c17f04950909bbc8023bdb82eacf22c2b0"
+        }
+      ]
+    },
+    {
+      "name": "attrs",
+      "version": "26.1.0",
+      "license_expression": "MIT",
+      "license_field_first_line": "",
+      "license_classifiers": [],
+      "environments": [
+        "hunyuan",
+        "torch"
+      ],
+      "metadata_paths": [
+        "runtime/envs/hunyuan/lib/python3.12/site-packages/attrs-26.1.0.dist-info/METADATA",
+        "runtime/envs/torch/lib/python3.12/site-packages/attrs-26.1.0.dist-info/METADATA"
+      ],
+      "license_files": [
+        {
+          "path": "runtime/envs/hunyuan/lib/python3.12/site-packages/attrs-26.1.0.dist-info/licenses/LICENSE",
+          "sha256": "882115c95dfc2af1eeb6714f8ec6d5cbcabf667caff8729f42420da63f714e9f"
+        },
+        {
+          "path": "runtime/envs/torch/lib/python3.12/site-packages/attrs-26.1.0.dist-info/licenses/LICENSE",
+          "sha256": "882115c95dfc2af1eeb6714f8ec6d5cbcabf667caff8729f42420da63f714e9f"
+        }
+      ]
+    },
+    {
+      "name": "blinker",
+      "version": "1.9.0",
+      "license_expression": null,
+      "license_field_first_line": "",
+      "license_classifiers": [
+        "License :: OSI Approved :: MIT License"
+      ],
+      "environments": [
+        "torch"
+      ],
+      "metadata_paths": [
+        "runtime/envs/torch/lib/python3.12/site-packages/blinker-1.9.0.dist-info/METADATA"
+      ],
+      "license_files": [
+        {
+          "path": "runtime/envs/torch/lib/python3.12/site-packages/blinker-1.9.0.dist-info/LICENSE.txt",
+          "sha256": "9eb73a1f38597a4aa17025d2ae1be3839624c795e985d4f0e9769ce29faca467"
+        }
+      ]
+    },
+    {
+      "name": "certifi",
+      "version": "2026.10.23",
+      "license_expression": null,
+      "license_field_first_line": "MPL-2.0",
+      "license_classifiers": [
+        "License :: OSI Approved :: Mozilla Public License 2.0 (MPL 2.0)"
+      ],
+      "environments": [
+        "hi3d",
+        "hunyuan",
+        "torch"
+      ],
+      "metadata_paths": [
+        "runtime/envs/hi3d/lib/python3.12/site-packages/certifi-2026.10.23.dist-info/METADATA",
+        "runtime/envs/hunyuan/lib/python3.12/site-packages/certifi-2026.10.23.dist-info/METADATA",
+        "runtime/envs/torch/lib/python3.12/site-packages/certifi-2026.10.23.dist-info/METADATA"
+      ],
+      "license_files": [
+        {
+          "path": "runtime/envs/hi3d/lib/python3.12/site-packages/certifi-2026.10.23.dist-info/licenses/LICENSE",
+          "sha256": "e93716da6b9c0d5a4a1df60fe695b370f0695603d21f6f83f053e42cfc10caf7"
+        },
+        {
+          "path": "runtime/envs/hunyuan/lib/python3.12/site-packages/certifi-2026.10.23.dist-info/licenses/LICENSE",
+          "sha256": "e93716da6b9c0d5a4a1df60fe695b370f0695603d21f6f83f053e42cfc10caf7"
+        },
+        {
+          "path": "runtime/envs/torch/lib/python3.12/site-packages/certifi-2026.10.23.dist-info/licenses/LICENSE",
+          "sha256": "e93716da6b9c0d5a4a1df60fe695b370f0695603d21f6f83f053e42cfc10caf7"
+        }
+      ]
+    },
+    {
+      "name": "charset-normalizer",
+      "version": "3.5.2",
+      "license_expression": null,
+      "license_field_first_line": "MIT",
+      "license_classifiers": [],
+      "environments": [
+        "hi3d",
+        "hunyuan",
+        "torch"
+      ],
+      "metadata_paths": [
+        "runtime/envs/hi3d/lib/python3.12/site-packages/charset_normalizer-3.5.2.dist-info/METADATA",
+        "runtime/envs/hunyuan/lib/python3.12/site-packages/charset_normalizer-3.5.2.dist-info/METADATA",
+        "runtime/envs/torch/lib/python3.12/site-packages/charset_normalizer-3.5.2.dist-info/METADATA"
+      ],
+      "license_files": [
+        {
+          "path": "runtime/envs/hi3d/lib/python3.12/site-packages/charset_normalizer-3.5.2.dist-info/licenses/LICENSE",
+          "sha256": "6d0d41bfe170ac6c7dc248c9a63e254d0fb45a60d50a8257d0af92c6e249b887"
+        },
+        {
+          "path": "runtime/envs/hunyuan/lib/python3.12/site-packages/charset_normalizer-3.5.2.dist-info/licenses/LICENSE",
+          "sha256": "6d0d41bfe170ac6c7dc248c9a63e254d0fb45a60d50a8257d0af92c6e249b887"
+        },
+        {
+          "path": "runtime/envs/torch/lib/python3.12/site-packages/charset_normalizer-3.5.2.dist-info/licenses/LICENSE",
+          "sha256": "6d0d41bfe170ac6c7dc248c9a63e254d0fb45a60d50a8257d0af92c6e249b887"
+        }
+      ]
+    },
+    {
+      "name": "click",
+      "version": "8.5.0",
+      "license_expression": "BSD-3-Clause",
+      "license_field_first_line": "",
+      "license_classifiers": [],
+      "environments": [
+        "torch"
+      ],
+      "metadata_paths": [
+        "runtime/envs/torch/lib/python3.12/site-packages/click-8.5.0.dist-info/METADATA"
+      ],
+      "license_files": [
+        {
+          "path": "runtime/envs/torch/lib/python3.12/site-packages/click-8.5.0.dist-info/licenses/LICENSE.txt",
+          "sha256": "9a8ad106a394e853bfe21f42f4e72d592819a22805d991b5f3275029292b658d"
+        }
+      ]
+    },
+    {
+      "name": "cloudpickle",
+      "version": "3.1.2",
+      "license_expression": null,
+      "license_field_first_line": "BSD-3-Clause",
+      "license_classifiers": [
+        "License :: OSI Approved :: BSD License"
+      ],
+      "environments": [
+        "torch"
+      ],
+      "metadata_paths": [
+        "runtime/envs/torch/lib/python3.12/site-packages/cloudpickle-3.1.2.dist-info/METADATA"
+      ],
+      "license_files": [
+        {
+          "path": "runtime/envs/torch/lib/python3.12/site-packages/cloudpickle-3.1.2.dist-info/licenses/LICENSE",
+          "sha256": "3029ea34173e9fdc233ad315dc6b100bd1ea71f529b1c1af97664a272fdc55f5"
+        }
+      ]
+    },
+    {
+      "name": "coloredlogs",
+      "version": "15.0.1",
+      "license_expression": null,
+      "license_field_first_line": "MIT",
+      "license_classifiers": [
+        "License :: OSI Approved :: MIT License"
+      ],
+      "environments": [
+        "hunyuan",
+        "torch"
+      ],
+      "metadata_paths": [
+        "runtime/envs/hunyuan/lib/python3.12/site-packages/coloredlogs-15.0.1.dist-info/METADATA",
+        "runtime/envs/torch/lib/python3.12/site-packages/coloredlogs-15.0.1.dist-info/METADATA"
+      ],
+      "license_files": [
+        {
+          "path": "runtime/envs/hunyuan/lib/python3.12/site-packages/coloredlogs-15.0.1.dist-info/LICENSE.txt",
+          "sha256": "0bef4ffb1855b65570304f2018c6d44e4bab97bd5df8716ecd7800014d717267"
+        },
+        {
+          "path": "runtime/envs/torch/lib/python3.12/site-packages/coloredlogs-15.0.1.dist-info/LICENSE.txt",
+          "sha256": "0bef4ffb1855b65570304f2018c6d44e4bab97bd5df8716ecd7800014d717267"
+        }
+      ]
+    },
+    {
+      "name": "comm",
+      "version": "0.2.3",
+      "license_expression": null,
+      "license_field_first_line": "BSD 3-Clause License",
+      "license_classifiers": [
+        "License :: OSI Approved :: BSD License"
+      ],
+      "environments": [
+        "torch"
+      ],
+      "metadata_paths": [
+        "runtime/envs/torch/lib/python3.12/site-packages/comm-0.2.3.dist-info/METADATA"
+      ],
+      "license_files": [
+        {
+          "path": "runtime/envs/torch/lib/python3.12/site-packages/comm-0.2.3.dist-info/licenses/LICENSE",
+          "sha256": "97a7e0a142b7c1dcd26461b20fc13980988b4449b7446ed776928826fd2ca9c4"
+        }
+      ]
+    },
+    {
+      "name": "contourpy",
+      "version": "1.3.3",
+      "license_expression": null,
+      "license_field_first_line": "BSD 3-Clause License",
+      "license_classifiers": [
+        "License :: OSI Approved :: BSD License"
+      ],
+      "environments": [
+        "torch"
+      ],
+      "metadata_paths": [
+        "runtime/envs/torch/lib/python3.12/site-packages/contourpy-1.3.3.dist-info/METADATA"
+      ],
+      "license_files": [
+        {
+          "path": "runtime/envs/torch/lib/python3.12/site-packages/contourpy-1.3.3.dist-info/LICENSE",
+          "sha256": "34170979fc64f4f5e6dfa66ef27dec314ffffc5852000c60f4836ec1dfbf156e"
+        }
+      ]
+    },
+    {
+      "name": "cycler",
+      "version": "0.12.1",
+      "license_expression": null,
+      "license_field_first_line": "Copyright (c) 2015, matplotlib project",
+      "license_classifiers": [
+        "License :: OSI Approved :: BSD License"
+      ],
+      "environments": [
+        "torch"
+      ],
+      "metadata_paths": [
+        "runtime/envs/torch/lib/python3.12/site-packages/cycler-0.12.1.dist-info/METADATA"
+      ],
+      "license_files": [
+        {
+          "path": "runtime/envs/torch/lib/python3.12/site-packages/cycler-0.12.1.dist-info/LICENSE",
+          "sha256": "f1218143d766da3fea66f13396b7f15df46a83303f29bf96ba6e98eb4d42f408"
+        }
+      ]
+    },
+    {
+      "name": "dash",
+      "version": "4.5.0",
+      "license_expression": null,
+      "license_field_first_line": "MIT",
+      "license_classifiers": [
+        "License :: OSI Approved :: MIT License"
+      ],
+      "environments": [
+        "torch"
+      ],
+      "metadata_paths": [
+        "runtime/envs/torch/lib/python3.12/site-packages/dash-4.5.0.dist-info/METADATA"
+      ],
+      "license_files": [
+        {
+          "path": "runtime/envs/torch/lib/python3.12/site-packages/dash-4.5.0.dist-info/licenses/LICENSE",
+          "sha256": "527533b931f0eb1bbf6ecf2b2c0927a57de0967601eb41cd682946a3578cd696"
+        }
+      ]
+    },
+    {
+      "name": "diffusers",
+      "version": "0.36.0",
+      "license_expression": null,
+      "license_field_first_line": "Apache 2.0 License",
+      "license_classifiers": [
+        "License :: OSI Approved :: Apache Software License"
+      ],
+      "environments": [
+        "torch"
+      ],
+      "metadata_paths": [
+        "runtime/envs/torch/lib/python3.12/site-packages/diffusers-0.36.0.dist-info/METADATA"
+      ],
+      "license_files": [
+        {
+          "path": "runtime/envs/torch/lib/python3.12/site-packages/diffusers-0.36.0.dist-info/LICENSE",
+          "sha256": "c71d239df91726fc519c6eb72d318ec65820627232b2f796219e87dcf35d0ab4"
+        }
+      ]
+    },
+    {
+      "name": "easydict",
+      "version": "1.13",
+      "license_expression": null,
+      "license_field_first_line": "LGPL-3.0",
+      "license_classifiers": [
+        "License :: OSI Approved :: GNU Lesser General Public License v3 (LGPLv3)"
+      ],
+      "environments": [
+        "torch"
+      ],
+      "metadata_paths": [
+        "runtime/envs/torch/lib/python3.12/site-packages/easydict-1.13.dist-info/METADATA"
+      ],
+      "license_files": [
+        {
+          "path": "runtime/envs/torch/lib/python3.12/site-packages/easydict-1.13.dist-info/LICENSE",
+          "sha256": "da7eabb7bafdf7d3ae5e9f223aa5bdc1eece45ac569dc21b3b037520b4464768"
+        }
+      ]
+    },
+    {
+      "name": "einops",
+      "version": "0.8.2",
+      "license_expression": null,
+      "license_field_first_line": "MIT",
+      "license_classifiers": [
+        "License :: OSI Approved :: MIT License"
+      ],
+      "environments": [
+        "torch"
+      ],
+      "metadata_paths": [
+        "runtime/envs/torch/lib/python3.12/site-packages/einops-0.8.2.dist-info/METADATA"
+      ],
+      "license_files": [
+        {
+          "path": "runtime/envs/torch/lib/python3.12/site-packages/einops-0.8.2.dist-info/licenses/LICENSE",
+          "sha256": "30d984364296f51ffaecad4b01ee127e95250c5068918d4b66fc96206723e434"
+        }
+      ]
+    },
+    {
+      "name": "fast_simplification",
+      "version": "0.2.0",
+      "license_expression": "MIT",
+      "license_field_first_line": "",
+      "license_classifiers": [],
+      "environments": [
+        "torch"
+      ],
+      "metadata_paths": [
+        "runtime/envs/torch/lib/python3.12/site-packages/fast_simplification-0.2.0.dist-info/METADATA"
+      ],
+      "license_files": [
+        {
+          "path": "runtime/envs/torch/lib/python3.12/site-packages/fast_simplification-0.2.0.dist-info/licenses/LICENSE",
+          "sha256": "8585978ddf4e1ce39a5bfe67f525dc0aa0008c107fe2c6de4d03ab739ecd5a84"
+        }
+      ]
+    },
+    {
+      "name": "fastjsonschema",
+      "version": "2.22.3",
+      "license_expression": null,
+      "license_field_first_line": "BSD-3-Clause",
+      "license_classifiers": [
+        "License :: OSI Approved :: BSD License"
+      ],
+      "environments": [
+        "torch"
+      ],
+      "metadata_paths": [
+        "runtime/envs/torch/lib/python3.12/site-packages/fastjsonschema-2.22.3.dist-info/METADATA"
+      ],
+      "license_files": [
+        {
+          "path": "runtime/envs/torch/lib/python3.12/site-packages/fastjsonschema-2.22.3.dist-info/licenses/LICENSE",
+          "sha256": "9ccddf69eb3998a60148debe85b94c5afed53691b6474692e78abcc0a0e544f1"
+        }
+      ]
+    },
+    {
+      "name": "filelock",
+      "version": "4.2.8",
+      "license_expression": "MIT",
+      "license_field_first_line": "",
+      "license_classifiers": [],
+      "environments": [
+        "hi3d",
+        "hunyuan",
+        "torch"
+      ],
+      "metadata_paths": [
+        "runtime/envs/hi3d/lib/python3.12/site-packages/filelock-4.2.8.dist-info/METADATA",
+        "runtime/envs/hunyuan/lib/python3.12/site-packages/filelock-4.2.8.dist-info/METADATA",
+        "runtime/envs/torch/lib/python3.12/site-packages/filelock-4.2.8.dist-info/METADATA"
+      ],
+      "license_files": [
+        {
+          "path": "runtime/envs/hi3d/lib/python3.12/site-packages/filelock-4.2.8.dist-info/licenses/LICENSE",
+          "sha256": "608c89d5060ae9921adccf3236695bc654a9946e12323ef6c021dfa04e294d48"
+        },
+        {
+          "path": "runtime/envs/hunyuan/lib/python3.12/site-packages/filelock-4.2.8.dist-info/licenses/LICENSE",
+          "sha256": "608c89d5060ae9921adccf3236695bc654a9946e12323ef6c021dfa04e294d48"
+        },
+        {
+          "path": "runtime/envs/torch/lib/python3.12/site-packages/filelock-4.2.8.dist-info/licenses/LICENSE",
+          "sha256": "608c89d5060ae9921adccf3236695bc654a9946e12323ef6c021dfa04e294d48"
+        }
+      ]
+    },
+    {
+      "name": "flatbuffers",
+      "version": "25.12.19",
+      "license_expression": null,
+      "license_field_first_line": "Apache 2.0",
+      "license_classifiers": [
+        "License :: OSI Approved :: Apache Software License"
+      ],
+      "environments": [
+        "hunyuan",
+        "torch"
+      ],
+      "metadata_paths": [
+        "runtime/envs/hunyuan/lib/python3.12/site-packages/flatbuffers-25.12.19.dist-info/METADATA",
+        "runtime/envs/torch/lib/python3.12/site-packages/flatbuffers-25.12.19.dist-info/METADATA"
+      ],
+      "license_files": []
+    },
+    {
+      "name": "fonttools",
+      "version": "4.68.0",
+      "license_expression": null,
+      "license_field_first_line": "MIT",
+      "license_classifiers": [],
+      "environments": [
+        "torch"
+      ],
+      "metadata_paths": [
+        "runtime/envs/torch/lib/python3.12/site-packages/fonttools-4.68.0.dist-info/METADATA"
+      ],
+      "license_files": [
+        {
+          "path": "runtime/envs/torch/lib/python3.12/site-packages/fonttools-4.68.0.dist-info/licenses/LICENSE",
+          "sha256": "6787208f83f659ccbc2223b2fde952ffa6f7e8aca62f1a8a2bf5bc51bb1b2383"
+        },
+        {
+          "path": "runtime/envs/torch/lib/python3.12/site-packages/fonttools-4.68.0.dist-info/licenses/LICENSE.external",
+          "sha256": "94a83aaee0729a0f302d34acc4acecbd9d58366f262429075fe557e4a54b2e69"
+        }
+      ]
+    },
+    {
+      "name": "fsspec",
+      "version": "2026.9.0",
+      "license_expression": "BSD-3-Clause",
+      "license_field_first_line": "",
+      "license_classifiers": [],
+      "environments": [
+        "hi3d",
+        "hunyuan",
+        "torch"
+      ],
+      "metadata_paths": [
+        "runtime/envs/hi3d/lib/python3.12/site-packages/fsspec-2026.9.0.dist-info/METADATA",
+        "runtime/envs/hunyuan/lib/python3.12/site-packages/fsspec-2026.9.0.dist-info/METADATA",
+        "runtime/envs/torch/lib/python3.12/site-packages/fsspec-2026.9.0.dist-info/METADATA"
+      ],
+      "license_files": [
+        {
+          "path": "runtime/envs/hi3d/lib/python3.12/site-packages/fsspec-2026.9.0.dist-info/licenses/LICENSE",
+          "sha256": "2dc35496ce53a7307915c008a844aad53e772b49b34cdd00445067691407ec94"
+        },
+        {
+          "path": "runtime/envs/hunyuan/lib/python3.12/site-packages/fsspec-2026.9.0.dist-info/licenses/LICENSE",
+          "sha256": "2dc35496ce53a7307915c008a844aad53e772b49b34cdd00445067691407ec94"
+        },
+        {
+          "path": "runtime/envs/torch/lib/python3.12/site-packages/fsspec-2026.9.0.dist-info/licenses/LICENSE",
+          "sha256": "2dc35496ce53a7307915c008a844aad53e772b49b34cdd00445067691407ec94"
+        }
+      ]
+    },
+    {
+      "name": "glcontext",
+      "version": "3.1.0",
+      "license_expression": null,
+      "license_field_first_line": "MIT",
+      "license_classifiers": [
+        "License :: OSI Approved :: MIT License"
+      ],
+      "environments": [
+        "torch"
+      ],
+      "metadata_paths": [
+        "runtime/envs/torch/lib/python3.12/site-packages/glcontext-3.1.0.dist-info/METADATA"
+      ],
+      "license_files": [
+        {
+          "path": "runtime/envs/torch/lib/python3.12/site-packages/glcontext-3.1.0.dist-info/licenses/LICENSE",
+          "sha256": "5343a2b496db3237e032a11fcd5c6d183b4a8f2882fb3d96dab1fc1124f139c1"
+        }
+      ]
+    },
+    {
+      "name": "h11",
+      "version": "0.16.0",
+      "license_expression": null,
+      "license_field_first_line": "MIT",
+      "license_classifiers": [
+        "License :: OSI Approved :: MIT License"
+      ],
+      "environments": [
+        "torch"
+      ],
+      "metadata_paths": [
+        "runtime/envs/torch/lib/python3.12/site-packages/h11-0.16.0.dist-info/METADATA"
+      ],
+      "license_files": [
+        {
+          "path": "runtime/envs/torch/lib/python3.12/site-packages/h11-0.16.0.dist-info/licenses/LICENSE.txt",
+          "sha256": "37db5bb85926db28a427a25867f10b1232003aea1be69ccb851138adb8e6f361"
+        }
+      ]
+    },
+    {
+      "name": "hf-xet",
+      "version": "1.8.0",
+      "license_expression": "Apache-2.0",
+      "license_field_first_line": "",
+      "license_classifiers": [
+        "License :: OSI Approved :: Apache Software License"
+      ],
+      "environments": [
+        "hi3d",
+        "hunyuan",
+        "torch"
+      ],
+      "metadata_paths": [
+        "runtime/envs/hi3d/lib/python3.12/site-packages/hf_xet-1.8.0.dist-info/METADATA",
+        "runtime/envs/hunyuan/lib/python3.12/site-packages/hf_xet-1.8.0.dist-info/METADATA",
+        "runtime/envs/torch/lib/python3.12/site-packages/hf_xet-1.8.0.dist-info/METADATA"
+      ],
+      "license_files": [
+        {
+          "path": "runtime/envs/hi3d/lib/python3.12/site-packages/hf_xet-1.8.0.dist-info/licenses/LICENSE",
+          "sha256": "c71d239df91726fc519c6eb72d318ec65820627232b2f796219e87dcf35d0ab4"
+        },
+        {
+          "path": "runtime/envs/hunyuan/lib/python3.12/site-packages/hf_xet-1.8.0.dist-info/licenses/LICENSE",
+          "sha256": "c71d239df91726fc519c6eb72d318ec65820627232b2f796219e87dcf35d0ab4"
+        },
+        {
+          "path": "runtime/envs/torch/lib/python3.12/site-packages/hf_xet-1.8.0.dist-info/licenses/LICENSE",
+          "sha256": "c71d239df91726fc519c6eb72d318ec65820627232b2f796219e87dcf35d0ab4"
+        }
+      ]
+    },
+    {
+      "name": "httpcore",
+      "version": "1.0.9",
+      "license_expression": "BSD-3-Clause",
+      "license_field_first_line": "",
+      "license_classifiers": [
+        "License :: OSI Approved :: BSD License"
+      ],
+      "environments": [
+        "torch"
+      ],
+      "metadata_paths": [
+        "runtime/envs/torch/lib/python3.12/site-packages/httpcore-1.0.9.dist-info/METADATA"
+      ],
+      "license_files": [
+        {
+          "path": "runtime/envs/torch/lib/python3.12/site-packages/httpcore-1.0.9.dist-info/licenses/LICENSE.md",
+          "sha256": "fdcb59154c74cbaba16a11242f7740bea9f23d6feb5547917d8c5f94a80392a5"
+        }
+      ]
+    },
+    {
+      "name": "httpx",
+      "version": "0.28.1",
+      "license_expression": null,
+      "license_field_first_line": "BSD-3-Clause",
+      "license_classifiers": [
+        "License :: OSI Approved :: BSD License"
+      ],
+      "environments": [
+        "torch"
+      ],
+      "metadata_paths": [
+        "runtime/envs/torch/lib/python3.12/site-packages/httpx-0.28.1.dist-info/METADATA"
+      ],
+      "license_files": [
+        {
+          "path": "runtime/envs/torch/lib/python3.12/site-packages/httpx-0.28.1.dist-info/licenses/LICENSE.md",
+          "sha256": "4ec59d544f12b5f539a3a716fd321ac58ccd8030b465221f2c880200cdf28d8d"
+        }
+      ]
+    },
+    {
+      "name": "huggingface_hub",
+      "version": "0.36.2",
+      "license_expression": null,
+      "license_field_first_line": "Apache",
+      "license_classifiers": [
+        "License :: OSI Approved :: Apache Software License"
+      ],
+      "environments": [
+        "hi3d",
+        "hunyuan",
+        "torch"
+      ],
+      "metadata_paths": [
+        "runtime/envs/hi3d/lib/python3.12/site-packages/huggingface_hub-0.36.2.dist-info/METADATA",
+        "runtime/envs/hunyuan/lib/python3.12/site-packages/huggingface_hub-0.36.2.dist-info/METADATA",
+        "runtime/envs/torch/lib/python3.12/site-packages/huggingface_hub-0.36.2.dist-info/METADATA"
+      ],
+      "license_files": [
+        {
+          "path": "runtime/envs/hi3d/lib/python3.12/site-packages/huggingface_hub-0.36.2.dist-info/licenses/LICENSE",
+          "sha256": "c71d239df91726fc519c6eb72d318ec65820627232b2f796219e87dcf35d0ab4"
+        },
+        {
+          "path": "runtime/envs/hunyuan/lib/python3.12/site-packages/huggingface_hub-0.36.2.dist-info/licenses/LICENSE",
+          "sha256": "c71d239df91726fc519c6eb72d318ec65820627232b2f796219e87dcf35d0ab4"
+        },
+        {
+          "path": "runtime/envs/torch/lib/python3.12/site-packages/huggingface_hub-0.36.2.dist-info/licenses/LICENSE",
+          "sha256": "c71d239df91726fc519c6eb72d318ec65820627232b2f796219e87dcf35d0ab4"
+        }
+      ]
+    },
+    {
+      "name": "humanfriendly",
+      "version": "10.0",
+      "license_expression": null,
+      "license_field_first_line": "MIT",
+      "license_classifiers": [
+        "License :: OSI Approved :: MIT License"
+      ],
+      "environments": [
+        "hunyuan",
+        "torch"
+      ],
+      "metadata_paths": [
+        "runtime/envs/hunyuan/lib/python3.12/site-packages/humanfriendly-10.0.dist-info/METADATA",
+        "runtime/envs/torch/lib/python3.12/site-packages/humanfriendly-10.0.dist-info/METADATA"
+      ],
+      "license_files": [
+        {
+          "path": "runtime/envs/hunyuan/lib/python3.12/site-packages/humanfriendly-10.0.dist-info/LICENSE.txt",
+          "sha256": "4ac48f4117809f2734066150450f120b3bb110ac1d3b32170795e0560dbbc1f5"
+        },
+        {
+          "path": "runtime/envs/torch/lib/python3.12/site-packages/humanfriendly-10.0.dist-info/LICENSE.txt",
+          "sha256": "4ac48f4117809f2734066150450f120b3bb110ac1d3b32170795e0560dbbc1f5"
+        }
+      ]
+    },
+    {
+      "name": "idna",
+      "version": "3.20",
+      "license_expression": "BSD-3-Clause",
+      "license_field_first_line": "",
+      "license_classifiers": [],
+      "environments": [
+        "hi3d",
+        "hunyuan",
+        "torch"
+      ],
+      "metadata_paths": [
+        "runtime/envs/hi3d/lib/python3.12/site-packages/idna-3.20.dist-info/METADATA",
+        "runtime/envs/hunyuan/lib/python3.12/site-packages/idna-3.20.dist-info/METADATA",
+        "runtime/envs/torch/lib/python3.12/site-packages/idna-3.20.dist-info/METADATA"
+      ],
+      "license_files": [
+        {
+          "path": "runtime/envs/hi3d/lib/python3.12/site-packages/idna-3.20.dist-info/licenses/LICENSE.md",
+          "sha256": "1a9a4f0e3d479a27240ddd59a9137a66ab4a0f9dfdc8ca6188cc0bfd85187f04"
+        },
+        {
+          "path": "runtime/envs/hunyuan/lib/python3.12/site-packages/idna-3.20.dist-info/licenses/LICENSE.md",
+          "sha256": "1a9a4f0e3d479a27240ddd59a9137a66ab4a0f9dfdc8ca6188cc0bfd85187f04"
+        },
+        {
+          "path": "runtime/envs/torch/lib/python3.12/site-packages/idna-3.20.dist-info/licenses/LICENSE.md",
+          "sha256": "1a9a4f0e3d479a27240ddd59a9137a66ab4a0f9dfdc8ca6188cc0bfd85187f04"
+        }
+      ]
+    },
+    {
+      "name": "importlib_metadata",
+      "version": "10.1.0",
+      "license_expression": "Apache-2.0",
+      "license_field_first_line": "",
+      "license_classifiers": [],
+      "environments": [
+        "torch"
+      ],
+      "metadata_paths": [
+        "runtime/envs/torch/lib/python3.12/site-packages/importlib_metadata-10.1.0.dist-info/METADATA"
+      ],
+      "license_files": [
+        {
+          "path": "runtime/envs/torch/lib/python3.12/site-packages/importlib_metadata-10.1.0.dist-info/licenses/LICENSE",
+          "sha256": "e2f7bb0557e7a381499f15baa7c1d776d83d6616599179d71d3109b8e39f7b25"
+        }
+      ]
+    },
+    {
+      "name": "itsdangerous",
+      "version": "2.2.0",
+      "license_expression": null,
+      "license_field_first_line": "",
+      "license_classifiers": [
+        "License :: OSI Approved :: BSD License"
+      ],
+      "environments": [
+        "torch"
+      ],
+      "metadata_paths": [
+        "runtime/envs/torch/lib/python3.12/site-packages/itsdangerous-2.2.0.dist-info/METADATA"
+      ],
+      "license_files": [
+        {
+          "path": "runtime/envs/torch/lib/python3.12/site-packages/itsdangerous-2.2.0.dist-info/LICENSE.txt",
+          "sha256": "63af09891b6be8ad1a4252ed43af0f4efba7fc948e228367bed7f3c5ae0b09d7"
+        }
+      ]
+    },
+    {
+      "name": "janus",
+      "version": "2.0.0",
+      "license_expression": null,
+      "license_field_first_line": "Apache 2",
+      "license_classifiers": [
+        "License :: OSI Approved :: Apache Software License"
+      ],
+      "environments": [
+        "torch"
+      ],
+      "metadata_paths": [
+        "runtime/envs/torch/lib/python3.12/site-packages/janus-2.0.0.dist-info/METADATA"
+      ],
+      "license_files": [
+        {
+          "path": "runtime/envs/torch/lib/python3.12/site-packages/janus-2.0.0.dist-info/LICENSE",
+          "sha256": "8b177cccb6ddec12a9fc97bd49e7e2bbcd92464625624bd8bdbfad799ae606e9"
+        }
+      ]
+    },
+    {
+      "name": "joblib",
+      "version": "1.6.0",
+      "license_expression": "BSD-3-Clause",
+      "license_field_first_line": "",
+      "license_classifiers": [],
+      "environments": [
+        "torch"
+      ],
+      "metadata_paths": [
+        "runtime/envs/torch/lib/python3.12/site-packages/joblib-1.6.0.dist-info/METADATA"
+      ],
+      "license_files": [
+        {
+          "path": "runtime/envs/torch/lib/python3.12/site-packages/joblib-1.6.0.dist-info/licenses/LICENSE.txt",
+          "sha256": "42612911c1872c5e4b43f6ae0e8ee59467cd350332241cf72ce90640264fae6a"
+        }
+      ]
+    },
+    {
+      "name": "jsonschema",
+      "version": "4.26.0",
+      "license_expression": "MIT",
+      "license_field_first_line": "",
+      "license_classifiers": [],
+      "environments": [
+        "hunyuan",
+        "torch"
+      ],
+      "metadata_paths": [
+        "runtime/envs/hunyuan/lib/python3.12/site-packages/jsonschema-4.26.0.dist-info/METADATA",
+        "runtime/envs/torch/lib/python3.12/site-packages/jsonschema-4.26.0.dist-info/METADATA"
+      ],
+      "license_files": [
+        {
+          "path": "runtime/envs/hunyuan/lib/python3.12/site-packages/jsonschema-4.26.0.dist-info/licenses/COPYING",
+          "sha256": "4f92a015a13c4d1a040bef018aa13430b4f1bc73b41b16bb846c346766de7439"
+        },
+        {
+          "path": "runtime/envs/torch/lib/python3.12/site-packages/jsonschema-4.26.0.dist-info/licenses/COPYING",
+          "sha256": "4f92a015a13c4d1a040bef018aa13430b4f1bc73b41b16bb846c346766de7439"
+        }
+      ]
+    },
+    {
+      "name": "jsonschema-specifications",
+      "version": "2025.9.1",
+      "license_expression": "MIT",
+      "license_field_first_line": "",
+      "license_classifiers": [],
+      "environments": [
+        "hunyuan",
+        "torch"
+      ],
+      "metadata_paths": [
+        "runtime/envs/hunyuan/lib/python3.12/site-packages/jsonschema_specifications-2025.9.1.dist-info/METADATA",
+        "runtime/envs/torch/lib/python3.12/site-packages/jsonschema_specifications-2025.9.1.dist-info/METADATA"
+      ],
+      "license_files": [
+        {
+          "path": "runtime/envs/hunyuan/lib/python3.12/site-packages/jsonschema_specifications-2025.9.1.dist-info/licenses/COPYING",
+          "sha256": "42dcd63495f87b4eb7c7757afa379bb55a53f94afd7a5f657d9adf57236e515c"
+        },
+        {
+          "path": "runtime/envs/torch/lib/python3.12/site-packages/jsonschema_specifications-2025.9.1.dist-info/licenses/COPYING",
+          "sha256": "42dcd63495f87b4eb7c7757afa379bb55a53f94afd7a5f657d9adf57236e515c"
+        }
+      ]
+    },
+    {
+      "name": "jupyter_core",
+      "version": "5.9.1",
+      "license_expression": "BSD-3-Clause",
+      "license_field_first_line": "",
+      "license_classifiers": [],
+      "environments": [
+        "torch"
+      ],
+      "metadata_paths": [
+        "runtime/envs/torch/lib/python3.12/site-packages/jupyter_core-5.9.1.dist-info/METADATA"
+      ],
+      "license_files": [
+        {
+          "path": "runtime/envs/torch/lib/python3.12/site-packages/jupyter_core-5.9.1.dist-info/licenses/LICENSE",
+          "sha256": "448f1835f5fa08dd075088e46f76f73eb9ac9c2aef0a6c8816be06d30ef592c7"
+        }
+      ]
+    },
+    {
+      "name": "kiwisolver",
+      "version": "1.5.1",
+      "license_expression": null,
+      "license_field_first_line": "=========================",
+      "license_classifiers": [
+        "License :: OSI Approved :: BSD License"
+      ],
+      "environments": [
+        "torch"
+      ],
+      "metadata_paths": [
+        "runtime/envs/torch/lib/python3.12/site-packages/kiwisolver-1.5.1.dist-info/METADATA"
+      ],
+      "license_files": [
+        {
+          "path": "runtime/envs/torch/lib/python3.12/site-packages/kiwisolver-1.5.1.dist-info/licenses/LICENSE",
+          "sha256": "529c40e5f67f2f88904657a9f7879ae2f8dc76bc9bfef9cb10d988b48804ed61"
+        }
+      ]
+    },
+    {
+      "name": "kornia",
+      "version": "0.8.2",
+      "license_expression": null,
+      "license_field_first_line": "Apache-2.0",
+      "license_classifiers": [
+        "License :: OSI Approved :: Apache Software License"
+      ],
+      "environments": [
+        "torch"
+      ],
+      "metadata_paths": [
+        "runtime/envs/torch/lib/python3.12/site-packages/kornia-0.8.2.dist-info/METADATA"
+      ],
+      "license_files": [
+        {
+          "path": "runtime/envs/torch/lib/python3.12/site-packages/kornia-0.8.2.dist-info/licenses/LICENSE",
+          "sha256": "a6cba85bc92e0cff7a450b1d873c0eaa2e9fc96bf472df0247a26bec77bf3ff9"
+        }
+      ]
+    },
+    {
+      "name": "kornia_rs",
+      "version": "0.2.0",
+      "license_expression": null,
+      "license_field_first_line": "",
+      "license_classifiers": [
+        "License :: OSI Approved :: Apache Software License"
+      ],
+      "environments": [
+        "torch"
+      ],
+      "metadata_paths": [
+        "runtime/envs/torch/lib/python3.12/site-packages/kornia_rs-0.2.0.dist-info/METADATA"
+      ],
+      "license_files": [
+        {
+          "path": "runtime/envs/torch/lib/python3.12/site-packages/kornia_rs-0.2.0.dist-info/licenses/LICENSE",
+          "sha256": "c71d239df91726fc519c6eb72d318ec65820627232b2f796219e87dcf35d0ab4"
+        }
+      ]
+    },
+    {
+      "name": "lazy-loader",
+      "version": "0.6",
+      "license_expression": "BSD-3-Clause",
+      "license_field_first_line": "",
+      "license_classifiers": [],
+      "environments": [
+        "hunyuan",
+        "torch"
+      ],
+      "metadata_paths": [
+        "runtime/envs/hunyuan/lib/python3.12/site-packages/lazy_loader-0.6.dist-info/METADATA",
+        "runtime/envs/torch/lib/python3.12/site-packages/lazy_loader-0.6.dist-info/METADATA"
+      ],
+      "license_files": [
+        {
+          "path": "runtime/envs/hunyuan/lib/python3.12/site-packages/lazy_loader-0.6.dist-info/licenses/LICENSE.md",
+          "sha256": "797b6937a4f976836efbbbb3ae333d7866ddc3eb3cb152972b2be348d3529372"
+        },
+        {
+          "path": "runtime/envs/torch/lib/python3.12/site-packages/lazy_loader-0.6.dist-info/licenses/LICENSE.md",
+          "sha256": "797b6937a4f976836efbbbb3ae333d7866ddc3eb3cb152972b2be348d3529372"
+        }
+      ]
+    },
+    {
+      "name": "llvmlite",
+      "version": "0.50.0",
+      "license_expression": "BSD-2-Clause AND Apache-2.0 WITH LLVM-exception",
+      "license_field_first_line": "",
+      "license_classifiers": [],
+      "environments": [
+        "hunyuan",
+        "torch"
+      ],
+      "metadata_paths": [
+        "runtime/envs/hunyuan/lib/python3.12/site-packages/llvmlite-0.50.0.dist-info/METADATA",
+        "runtime/envs/torch/lib/python3.12/site-packages/llvmlite-0.50.0.dist-info/METADATA"
+      ],
+      "license_files": [
+        {
+          "path": "runtime/envs/hunyuan/lib/python3.12/site-packages/llvmlite-0.50.0.dist-info/licenses/LICENSE",
+          "sha256": "5d0772f4dc4cb16e6bee2419bfa57c0a129808400e341b87fd9f87cbe6a5963d"
+        },
+        {
+          "path": "runtime/envs/hunyuan/lib/python3.12/site-packages/llvmlite-0.50.0.dist-info/licenses/LICENSE.thirdparty",
+          "sha256": "dc527293cfc2e4b4d59042e0b204667162845d8548651932f5a9d2f4adfc928b"
+        },
+        {
+          "path": "runtime/envs/torch/lib/python3.12/site-packages/llvmlite-0.50.0.dist-info/licenses/LICENSE",
+          "sha256": "5d0772f4dc4cb16e6bee2419bfa57c0a129808400e341b87fd9f87cbe6a5963d"
+        },
+        {
+          "path": "runtime/envs/torch/lib/python3.12/site-packages/llvmlite-0.50.0.dist-info/licenses/LICENSE.thirdparty",
+          "sha256": "dc527293cfc2e4b4d59042e0b204667162845d8548651932f5a9d2f4adfc928b"
+        }
+      ]
+    },
+    {
+      "name": "matplotlib",
+      "version": "3.11.2",
+      "license_expression": null,
+      "license_field_first_line": "License agreement for matplotlib versions 1.3.0 and later",
+      "license_classifiers": [
+        "License :: OSI Approved :: Python Software Foundation License"
+      ],
+      "environments": [
+        "torch"
+      ],
+      "metadata_paths": [
+        "runtime/envs/torch/lib/python3.12/site-packages/matplotlib-3.11.2.dist-info/METADATA"
+      ],
+      "license_files": [
+        {
+          "path": "runtime/envs/torch/lib/python3.12/site-packages/matplotlib-3.11.2.dist-info/LICENSE",
+          "sha256": "822e8e528147569a41975592aee19c11992ab667ba50451cd929031d5fc74491"
+        }
+      ]
+    },
+    {
+      "name": "mlx",
+      "version": "0.31.2",
+      "license_expression": null,
+      "license_field_first_line": "MIT",
+      "license_classifiers": [],
+      "environments": [
+        "hunyuan"
+      ],
+      "metadata_paths": [
+        "runtime/envs/hunyuan/lib/python3.12/site-packages/mlx-0.31.2.dist-info/METADATA"
+      ],
+      "license_files": [
+        {
+          "path": "runtime/envs/hunyuan/lib/python3.12/site-packages/mlx-0.31.2.dist-info/licenses/LICENSE",
+          "sha256": "ccfab7ccb2ea306f71531c8ca77bb55507606cd90768b1e32b8b52ab5b48cf01"
+        }
+      ]
+    },
+    {
+      "name": "mlx",
+      "version": "0.32.4",
+      "license_expression": null,
+      "license_field_first_line": "MIT",
+      "license_classifiers": [],
+      "environments": [
+        "hi3d"
+      ],
+      "metadata_paths": [
+        "runtime/envs/hi3d/lib/python3.12/site-packages/mlx-0.32.4.dist-info/METADATA"
+      ],
+      "license_files": [
+        {
+          "path": "runtime/envs/hi3d/lib/python3.12/site-packages/mlx-0.32.4.dist-info/licenses/LICENSE",
+          "sha256": "ccfab7ccb2ea306f71531c8ca77bb55507606cd90768b1e32b8b52ab5b48cf01"
+        }
+      ]
+    },
+    {
+      "name": "mlx-metal",
+      "version": "0.31.2",
+      "license_expression": null,
+      "license_field_first_line": "MIT",
+      "license_classifiers": [],
+      "environments": [
+        "hunyuan"
+      ],
+      "metadata_paths": [
+        "runtime/envs/hunyuan/lib/python3.12/site-packages/mlx_metal-0.31.2.dist-info/METADATA"
+      ],
+      "license_files": [
+        {
+          "path": "runtime/envs/hunyuan/lib/python3.12/site-packages/mlx_metal-0.31.2.dist-info/licenses/LICENSE",
+          "sha256": "ccfab7ccb2ea306f71531c8ca77bb55507606cd90768b1e32b8b52ab5b48cf01"
+        }
+      ]
+    },
+    {
+      "name": "mlx-metal",
+      "version": "0.32.4",
+      "license_expression": null,
+      "license_field_first_line": "MIT",
+      "license_classifiers": [],
+      "environments": [
+        "hi3d"
+      ],
+      "metadata_paths": [
+        "runtime/envs/hi3d/lib/python3.12/site-packages/mlx_metal-0.32.4.dist-info/METADATA"
+      ],
+      "license_files": [
+        {
+          "path": "runtime/envs/hi3d/lib/python3.12/site-packages/mlx_metal-0.32.4.dist-info/licenses/LICENSE",
+          "sha256": "ccfab7ccb2ea306f71531c8ca77bb55507606cd90768b1e32b8b52ab5b48cf01"
+        }
+      ]
+    },
+    {
+      "name": "moderngl",
+      "version": "5.13.0",
+      "license_expression": null,
+      "license_field_first_line": "MIT",
+      "license_classifiers": [
+        "License :: OSI Approved",
+        "License :: OSI Approved :: MIT License"
+      ],
+      "environments": [
+        "torch"
+      ],
+      "metadata_paths": [
+        "runtime/envs/torch/lib/python3.12/site-packages/moderngl-5.13.0.dist-info/METADATA"
+      ],
+      "license_files": [
+        {
+          "path": "runtime/envs/torch/lib/python3.12/site-packages/moderngl-5.13.0.dist-info/licenses/LICENSE",
+          "sha256": "20d168158102c3ceea1c76bd7c10a921216dd1ca4a68c8f212a2565bdab6e33e"
+        }
+      ]
+    },
+    {
+      "name": "mpmath",
+      "version": "1.3.0",
+      "license_expression": null,
+      "license_field_first_line": "BSD",
+      "license_classifiers": [
+        "License :: OSI Approved :: BSD License"
+      ],
+      "environments": [
+        "hunyuan",
+        "torch"
+      ],
+      "metadata_paths": [
+        "runtime/envs/hunyuan/lib/python3.12/site-packages/mpmath-1.3.0.dist-info/METADATA",
+        "runtime/envs/torch/lib/python3.12/site-packages/mpmath-1.3.0.dist-info/METADATA"
+      ],
+      "license_files": [
+        {
+          "path": "runtime/envs/hunyuan/lib/python3.12/site-packages/mpmath-1.3.0.dist-info/LICENSE",
+          "sha256": "c26cae81da4508e5e249985777a33821f183223ebb74d7f8cfbf90fe7eef2fb7"
+        },
+        {
+          "path": "runtime/envs/torch/lib/python3.12/site-packages/mpmath-1.3.0.dist-info/LICENSE",
+          "sha256": "c26cae81da4508e5e249985777a33821f183223ebb74d7f8cfbf90fe7eef2fb7"
+        }
+      ]
+    },
+    {
+      "name": "narwhals",
+      "version": "2.28.0",
+      "license_expression": "MIT",
+      "license_field_first_line": "",
+      "license_classifiers": [],
+      "environments": [
+        "torch"
+      ],
+      "metadata_paths": [
+        "runtime/envs/torch/lib/python3.12/site-packages/narwhals-2.28.0.dist-info/METADATA"
+      ],
+      "license_files": [
+        {
+          "path": "runtime/envs/torch/lib/python3.12/site-packages/narwhals-2.28.0.dist-info/licenses/LICENSE.md",
+          "sha256": "811445f30147b8f0c9d444c9025fd528f9532c54b7b83f6e2368473dc91cfdf0"
+        }
+      ]
+    },
+    {
+      "name": "nbformat",
+      "version": "5.11.1",
+      "license_expression": null,
+      "license_field_first_line": "BSD 3-Clause License",
+      "license_classifiers": [
+        "License :: OSI Approved :: BSD License"
+      ],
+      "environments": [
+        "torch"
+      ],
+      "metadata_paths": [
+        "runtime/envs/torch/lib/python3.12/site-packages/nbformat-5.11.1.dist-info/METADATA"
+      ],
+      "license_files": [
+        {
+          "path": "runtime/envs/torch/lib/python3.12/site-packages/nbformat-5.11.1.dist-info/licenses/LICENSE",
+          "sha256": "5ca74e4d2eeb9330b0d129c25f874d3544a13413bc62ae8d367819100d095072"
+        }
+      ]
+    },
+    {
+      "name": "nest-asyncio",
+      "version": "1.6.0",
+      "license_expression": null,
+      "license_field_first_line": "BSD",
+      "license_classifiers": [
+        "License :: OSI Approved :: BSD License"
+      ],
+      "environments": [
+        "torch"
+      ],
+      "metadata_paths": [
+        "runtime/envs/torch/lib/python3.12/site-packages/nest_asyncio-1.6.0.dist-info/METADATA"
+      ],
+      "license_files": [
+        {
+          "path": "runtime/envs/torch/lib/python3.12/site-packages/nest_asyncio-1.6.0.dist-info/LICENSE",
+          "sha256": "bece9f68655ff23b77413246c0650386b87da7c3682303dd0ee8e3ea7630e85b"
+        }
+      ]
+    },
+    {
+      "name": "networkx",
+      "version": "3.7",
+      "license_expression": "BSD-3-Clause",
+      "license_field_first_line": "",
+      "license_classifiers": [],
+      "environments": [
+        "hunyuan",
+        "torch"
+      ],
+      "metadata_paths": [
+        "runtime/envs/hunyuan/lib/python3.12/site-packages/networkx-3.7.dist-info/METADATA",
+        "runtime/envs/torch/lib/python3.12/site-packages/networkx-3.7.dist-info/METADATA"
+      ],
+      "license_files": [
+        {
+          "path": "runtime/envs/hunyuan/lib/python3.12/site-packages/networkx-3.7.dist-info/licenses/LICENSE.txt",
+          "sha256": "6025f323ea29dc2f0ee0abd9523bf910186f55b0e148e6ebf646c55566278e2e"
+        },
+        {
+          "path": "runtime/envs/torch/lib/python3.12/site-packages/networkx-3.7.dist-info/licenses/LICENSE.txt",
+          "sha256": "6025f323ea29dc2f0ee0abd9523bf910186f55b0e148e6ebf646c55566278e2e"
+        }
+      ]
+    },
+    {
+      "name": "ninja",
+      "version": "1.13.2",
+      "license_expression": "Apache-2.0",
+      "license_field_first_line": "",
+      "license_classifiers": [],
+      "environments": [
+        "torch"
+      ],
+      "metadata_paths": [
+        "runtime/envs/torch/lib/python3.12/site-packages/ninja-1.13.2.dist-info/METADATA"
+      ],
+      "license_files": [
+        {
+          "path": "runtime/envs/torch/lib/python3.12/site-packages/ninja-1.13.2.dist-info/licenses/LICENSE_Apache_20",
+          "sha256": "73ba74dfaa520b49a401b5d21459a8523a146f3b7518a833eea5efa85130bf68"
+        }
+      ]
+    },
+    {
+      "name": "numba",
+      "version": "0.68.1",
+      "license_expression": null,
+      "license_field_first_line": "BSD",
+      "license_classifiers": [
+        "License :: OSI Approved :: BSD License"
+      ],
+      "environments": [
+        "hunyuan",
+        "torch"
+      ],
+      "metadata_paths": [
+        "runtime/envs/hunyuan/lib/python3.12/site-packages/numba-0.68.1.dist-info/METADATA",
+        "runtime/envs/torch/lib/python3.12/site-packages/numba-0.68.1.dist-info/METADATA"
+      ],
+      "license_files": [
+        {
+          "path": "runtime/envs/hunyuan/lib/python3.12/site-packages/numba-0.68.1.dist-info/licenses/LICENSE",
+          "sha256": "3a70e0a21cad03147246f6363d07bf76fae216c72779707f4ae5db06bcacf067"
+        },
+        {
+          "path": "runtime/envs/hunyuan/lib/python3.12/site-packages/numba-0.68.1.dist-info/licenses/LICENSES.third-party",
+          "sha256": "fdc60ca21d827beb3835ffc6b7a99bda14a5cfcb379d0c82c05e3c1ff4a482f2"
+        },
+        {
+          "path": "runtime/envs/torch/lib/python3.12/site-packages/numba-0.68.1.dist-info/licenses/LICENSE",
+          "sha256": "3a70e0a21cad03147246f6363d07bf76fae216c72779707f4ae5db06bcacf067"
+        },
+        {
+          "path": "runtime/envs/torch/lib/python3.12/site-packages/numba-0.68.1.dist-info/licenses/LICENSES.third-party",
+          "sha256": "fdc60ca21d827beb3835ffc6b7a99bda14a5cfcb379d0c82c05e3c1ff4a482f2"
+        }
+      ]
+    },
+    {
+      "name": "numpy",
+      "version": "1.26.4",
+      "license_expression": null,
+      "license_field_first_line": "Copyright (c) 2005-2023, NumPy Developers.",
+      "license_classifiers": [
+        "License :: OSI Approved :: BSD License"
+      ],
+      "environments": [
+        "hi3d",
+        "hunyuan",
+        "torch"
+      ],
+      "metadata_paths": [
+        "runtime/envs/hi3d/lib/python3.12/site-packages/numpy-1.26.4.dist-info/METADATA",
+        "runtime/envs/hunyuan/lib/python3.12/site-packages/numpy-1.26.4.dist-info/METADATA",
+        "runtime/envs/torch/lib/python3.12/site-packages/numpy-1.26.4.dist-info/METADATA"
+      ],
+      "license_files": [
+        {
+          "path": "runtime/envs/hi3d/lib/python3.12/site-packages/numpy-1.26.4.dist-info/LICENSE.txt",
+          "sha256": "080b68e8f70ebc82c180b7396936172d4331f1a18b17f496b9a9256131712cd8"
+        },
+        {
+          "path": "runtime/envs/hunyuan/lib/python3.12/site-packages/numpy-1.26.4.dist-info/LICENSE.txt",
+          "sha256": "080b68e8f70ebc82c180b7396936172d4331f1a18b17f496b9a9256131712cd8"
+        },
+        {
+          "path": "runtime/envs/torch/lib/python3.12/site-packages/numpy-1.26.4.dist-info/LICENSE.txt",
+          "sha256": "080b68e8f70ebc82c180b7396936172d4331f1a18b17f496b9a9256131712cd8"
+        }
+      ]
+    },
+    {
+      "name": "omegaconf",
+      "version": "2.4.0",
+      "license_expression": null,
+      "license_field_first_line": "",
+      "license_classifiers": [
+        "License :: OSI Approved :: BSD License"
+      ],
+      "environments": [
+        "mv"
+      ],
+      "metadata_paths": [
+        "runtime/envs/mv/lib/python3.12/site-packages/omegaconf-2.4.0.dist-info/METADATA"
+      ],
+      "license_files": [
+        {
+          "path": "runtime/envs/mv/lib/python3.12/site-packages/omegaconf-2.4.0.dist-info/licenses/LICENSE",
+          "sha256": "b31375ed5d5cbe7ec2d0c4c14df8afa7a8e5501bbe25f70b6cbc461685f4b91a"
+        },
+        {
+          "path": "runtime/envs/mv/lib/python3.12/site-packages/omegaconf-2.4.0.dist-info/licenses/ATTRIBUTION/LICENSE-antlr4",
+          "sha256": "3db1fb3ee79a4b4f9918fc4d0f6133bf18a3cf787f126cd22f8aa9b862281c0c"
+        }
+      ]
+    },
+    {
+      "name": "onnxruntime",
+      "version": "1.18.0",
+      "license_expression": null,
+      "license_field_first_line": "MIT License",
+      "license_classifiers": [
+        "License :: OSI Approved :: MIT License"
+      ],
+      "environments": [
+        "hunyuan",
+        "torch"
+      ],
+      "metadata_paths": [
+        "runtime/envs/hunyuan/lib/python3.12/site-packages/onnxruntime-1.18.0.dist-info/METADATA",
+        "runtime/envs/torch/lib/python3.12/site-packages/onnxruntime-1.18.0.dist-info/METADATA"
+      ],
+      "license_files": []
+    },
+    {
+      "name": "open3d",
+      "version": "0.19.0",
+      "license_expression": null,
+      "license_field_first_line": "MIT",
+      "license_classifiers": [
+        "License :: OSI Approved :: MIT License"
+      ],
+      "environments": [
+        "torch"
+      ],
+      "metadata_paths": [
+        "runtime/envs/torch/lib/python3.12/site-packages/open3d-0.19.0.dist-info/METADATA"
+      ],
+      "license_files": [
+        {
+          "path": "runtime/envs/torch/lib/python3.12/site-packages/open3d-0.19.0.dist-info/LICENSE.txt",
+          "sha256": "0cbb89e9cd94b28a25db7226f70621e43993124605b39f6de713720a5630d274"
+        }
+      ]
+    },
+    {
+      "name": "opencv-python-headless",
+      "version": "4.11.0.86",
+      "license_expression": null,
+      "license_field_first_line": "Apache 2.0",
+      "license_classifiers": [
+        "License :: OSI Approved :: Apache Software License"
+      ],
+      "environments": [
+        "hunyuan",
+        "torch"
+      ],
+      "metadata_paths": [
+        "runtime/envs/hunyuan/lib/python3.12/site-packages/opencv_python_headless-4.11.0.86.dist-info/METADATA",
+        "runtime/envs/torch/lib/python3.12/site-packages/opencv_python_headless-4.11.0.86.dist-info/METADATA"
+      ],
+      "license_files": [
+        {
+          "path": "runtime/envs/hunyuan/lib/python3.12/site-packages/opencv_python_headless-4.11.0.86.dist-info/LICENSE-3RD-PARTY.txt",
+          "sha256": "4fc3c113d53e95da0f3c433655a67067b7310e53af31eb6d280e94cc6927a363"
+        },
+        {
+          "path": "runtime/envs/hunyuan/lib/python3.12/site-packages/opencv_python_headless-4.11.0.86.dist-info/LICENSE.txt",
+          "sha256": "09d719058e782ac7bc71ba21c944e1136cde2bb957c0e888121f0218d6b5f02c"
+        },
+        {
+          "path": "runtime/envs/torch/lib/python3.12/site-packages/opencv_python_headless-4.11.0.86.dist-info/LICENSE-3RD-PARTY.txt",
+          "sha256": "4fc3c113d53e95da0f3c433655a67067b7310e53af31eb6d280e94cc6927a363"
+        },
+        {
+          "path": "runtime/envs/torch/lib/python3.12/site-packages/opencv_python_headless-4.11.0.86.dist-info/LICENSE.txt",
+          "sha256": "09d719058e782ac7bc71ba21c944e1136cde2bb957c0e888121f0218d6b5f02c"
+        }
+      ]
+    },
+    {
+      "name": "orjson",
+      "version": "3.13.0",
+      "license_expression": "MPL-2.0 AND (Apache-2.0 OR MIT)",
+      "license_field_first_line": "",
+      "license_classifiers": [
+        "License :: OSI Approved :: Apache Software License",
+        "License :: OSI Approved :: MIT License",
+        "License :: OSI Approved :: Mozilla Public License 2.0 (MPL 2.0)"
+      ],
+      "environments": [
+        "torch"
+      ],
+      "metadata_paths": [
+        "runtime/envs/torch/lib/python3.12/site-packages/orjson-3.13.0.dist-info/METADATA"
+      ],
+      "license_files": [
+        {
+          "path": "runtime/envs/torch/lib/python3.12/site-packages/orjson-3.13.0.dist-info/licenses/LICENSE-APACHE",
+          "sha256": "a60eea817514531668d7e00765731449fe14d059d3249e0bc93b36de45f759f2"
+        },
+        {
+          "path": "runtime/envs/torch/lib/python3.12/site-packages/orjson-3.13.0.dist-info/licenses/LICENSE-MPL-2.0",
+          "sha256": "66a3107d5ad6a058aab753eaac2047ccb2ed0e39465dd0fe5844da3e300d5172"
+        },
+        {
+          "path": "runtime/envs/torch/lib/python3.12/site-packages/orjson-3.13.0.dist-info/licenses/LICENSE-MIT",
+          "sha256": "23f18e03dc49df91622fe2a76176497404e46ced8a715d9d2b67a7446571cca3"
+        }
+      ]
+    },
+    {
+      "name": "packaging",
+      "version": "25.0",
+      "license_expression": null,
+      "license_field_first_line": "",
+      "license_classifiers": [
+        "License :: OSI Approved :: Apache Software License",
+        "License :: OSI Approved :: BSD License"
+      ],
+      "environments": [
+        "torch"
+      ],
+      "metadata_paths": [
+        "runtime/envs/torch/lib/python3.12/site-packages/packaging-25.0.dist-info/METADATA"
+      ],
+      "license_files": [
+        {
+          "path": "runtime/envs/torch/lib/python3.12/site-packages/packaging-25.0.dist-info/licenses/LICENSE",
+          "sha256": "cad1ef5bd340d73e074ba614d26f7deaca5c7940c3d8c34852e65c4909686c48"
+        },
+        {
+          "path": "runtime/envs/torch/lib/python3.12/site-packages/packaging-25.0.dist-info/licenses/LICENSE.APACHE",
+          "sha256": "0d542e0c8804e39aa7f37eb00da5a762149dc682d7829451287e11b938e94594"
+        },
+        {
+          "path": "runtime/envs/torch/lib/python3.12/site-packages/packaging-25.0.dist-info/licenses/LICENSE.BSD",
+          "sha256": "b70e7e9b742f1cc6f948b34c16aa39ffece94196364bc88ff0d2180f0028fac5"
+        }
+      ]
+    },
+    {
+      "name": "packaging",
+      "version": "26.3",
+      "license_expression": "Apache-2.0 OR BSD-2-Clause",
+      "license_field_first_line": "",
+      "license_classifiers": [],
+      "environments": [
+        "hi3d",
+        "hunyuan"
+      ],
+      "metadata_paths": [
+        "runtime/envs/hi3d/lib/python3.12/site-packages/packaging-26.3.dist-info/METADATA",
+        "runtime/envs/hunyuan/lib/python3.12/site-packages/packaging-26.3.dist-info/METADATA"
+      ],
+      "license_files": [
+        {
+          "path": "runtime/envs/hi3d/lib/python3.12/site-packages/packaging-26.3.dist-info/licenses/LICENSE",
+          "sha256": "cad1ef5bd340d73e074ba614d26f7deaca5c7940c3d8c34852e65c4909686c48"
+        },
+        {
+          "path": "runtime/envs/hi3d/lib/python3.12/site-packages/packaging-26.3.dist-info/licenses/LICENSE.APACHE",
+          "sha256": "0d542e0c8804e39aa7f37eb00da5a762149dc682d7829451287e11b938e94594"
+        },
+        {
+          "path": "runtime/envs/hi3d/lib/python3.12/site-packages/packaging-26.3.dist-info/licenses/LICENSE.BSD",
+          "sha256": "b70e7e9b742f1cc6f948b34c16aa39ffece94196364bc88ff0d2180f0028fac5"
+        },
+        {
+          "path": "runtime/envs/hunyuan/lib/python3.12/site-packages/packaging-26.3.dist-info/licenses/LICENSE",
+          "sha256": "cad1ef5bd340d73e074ba614d26f7deaca5c7940c3d8c34852e65c4909686c48"
+        },
+        {
+          "path": "runtime/envs/hunyuan/lib/python3.12/site-packages/packaging-26.3.dist-info/licenses/LICENSE.APACHE",
+          "sha256": "0d542e0c8804e39aa7f37eb00da5a762149dc682d7829451287e11b938e94594"
+        },
+        {
+          "path": "runtime/envs/hunyuan/lib/python3.12/site-packages/packaging-26.3.dist-info/licenses/LICENSE.BSD",
+          "sha256": "b70e7e9b742f1cc6f948b34c16aa39ffece94196364bc88ff0d2180f0028fac5"
+        }
+      ]
+    },
+    {
+      "name": "pandas",
+      "version": "3.0.6",
+      "license_expression": null,
+      "license_field_first_line": "BSD 3-Clause License",
+      "license_classifiers": [
+        "License :: OSI Approved :: BSD License"
+      ],
+      "environments": [
+        "torch"
+      ],
+      "metadata_paths": [
+        "runtime/envs/torch/lib/python3.12/site-packages/pandas-3.0.6.dist-info/METADATA"
+      ],
+      "license_files": [
+        {
+          "path": "runtime/envs/torch/lib/python3.12/site-packages/pandas-3.0.6.dist-info/LICENSE",
+          "sha256": "5c1052e921e62d36ccda50a61585e9c0444b80c62f39b57c4f3f0d5fb62f5071"
+        }
+      ]
+    },
+    {
+      "name": "peft",
+      "version": "0.17.1",
+      "license_expression": null,
+      "license_field_first_line": "Apache",
+      "license_classifiers": [
+        "License :: OSI Approved :: Apache Software License"
+      ],
+      "environments": [
+        "mv"
+      ],
+      "metadata_paths": [
+        "runtime/envs/mv/lib/python3.12/site-packages/peft-0.17.1.dist-info/METADATA"
+      ],
+      "license_files": [
+        {
+          "path": "runtime/envs/mv/lib/python3.12/site-packages/peft-0.17.1.dist-info/licenses/LICENSE",
+          "sha256": "c71d239df91726fc519c6eb72d318ec65820627232b2f796219e87dcf35d0ab4"
+        }
+      ]
+    },
+    {
+      "name": "pillow",
+      "version": "13.0.0",
+      "license_expression": "MIT-CMU",
+      "license_field_first_line": "",
+      "license_classifiers": [],
+      "environments": [
+        "hi3d",
+        "hunyuan",
+        "torch"
+      ],
+      "metadata_paths": [
+        "runtime/envs/hi3d/lib/python3.12/site-packages/pillow-13.0.0.dist-info/METADATA",
+        "runtime/envs/hunyuan/lib/python3.12/site-packages/pillow-13.0.0.dist-info/METADATA",
+        "runtime/envs/torch/lib/python3.12/site-packages/pillow-13.0.0.dist-info/METADATA"
+      ],
+      "license_files": [
+        {
+          "path": "runtime/envs/hi3d/lib/python3.12/site-packages/pillow-13.0.0.dist-info/licenses/LICENSE",
+          "sha256": "dda12a98c1979cf3d94df1cff45d27a4cb3f04a60c76f76902ac54cac03ec0ce"
+        },
+        {
+          "path": "runtime/envs/hunyuan/lib/python3.12/site-packages/pillow-13.0.0.dist-info/licenses/LICENSE",
+          "sha256": "dda12a98c1979cf3d94df1cff45d27a4cb3f04a60c76f76902ac54cac03ec0ce"
+        },
+        {
+          "path": "runtime/envs/torch/lib/python3.12/site-packages/pillow-13.0.0.dist-info/licenses/LICENSE",
+          "sha256": "dda12a98c1979cf3d94df1cff45d27a4cb3f04a60c76f76902ac54cac03ec0ce"
+        }
+      ]
+    },
+    {
+      "name": "pip",
+      "version": "25.0.1",
+      "license_expression": null,
+      "license_field_first_line": "MIT",
+      "license_classifiers": [
+        "License :: OSI Approved :: MIT License"
+      ],
+      "environments": [
+        "hi3d",
+        "hunyuan",
+        "mv",
+        "torch"
+      ],
+      "metadata_paths": [
+        "runtime/envs/hi3d/lib/python3.12/site-packages/pip-25.0.1.dist-info/METADATA",
+        "runtime/envs/hunyuan/lib/python3.12/site-packages/pip-25.0.1.dist-info/METADATA",
+        "runtime/envs/mv/lib/python3.12/site-packages/pip-25.0.1.dist-info/METADATA",
+        "runtime/envs/torch/lib/python3.12/site-packages/pip-25.0.1.dist-info/METADATA"
+      ],
+      "license_files": [
+        {
+          "path": "runtime/envs/hi3d/lib/python3.12/site-packages/pip-25.0.1.dist-info/LICENSE.txt",
+          "sha256": "634300a669d49aeae65b12c6c48c924c51a4cdf3d1ff086dc3456dc8bcaa2104"
+        },
+        {
+          "path": "runtime/envs/hunyuan/lib/python3.12/site-packages/pip-25.0.1.dist-info/LICENSE.txt",
+          "sha256": "634300a669d49aeae65b12c6c48c924c51a4cdf3d1ff086dc3456dc8bcaa2104"
+        },
+        {
+          "path": "runtime/envs/mv/lib/python3.12/site-packages/pip-25.0.1.dist-info/LICENSE.txt",
+          "sha256": "634300a669d49aeae65b12c6c48c924c51a4cdf3d1ff086dc3456dc8bcaa2104"
+        },
+        {
+          "path": "runtime/envs/torch/lib/python3.12/site-packages/pip-25.0.1.dist-info/LICENSE.txt",
+          "sha256": "634300a669d49aeae65b12c6c48c924c51a4cdf3d1ff086dc3456dc8bcaa2104"
+        }
+      ]
+    },
+    {
+      "name": "platformdirs",
+      "version": "4.14.5",
+      "license_expression": "MIT",
+      "license_field_first_line": "",
+      "license_classifiers": [],
+      "environments": [
+        "hunyuan",
+        "torch"
+      ],
+      "metadata_paths": [
+        "runtime/envs/hunyuan/lib/python3.12/site-packages/platformdirs-4.14.5.dist-info/METADATA",
+        "runtime/envs/torch/lib/python3.12/site-packages/platformdirs-4.14.5.dist-info/METADATA"
+      ],
+      "license_files": [
+        {
+          "path": "runtime/envs/hunyuan/lib/python3.12/site-packages/platformdirs-4.14.5.dist-info/licenses/LICENSE",
+          "sha256": "29e0fd62e929850e86eb28c3fdccf0cefdf4fa94879011cffb3d0d4bed6d4db6"
+        },
+        {
+          "path": "runtime/envs/torch/lib/python3.12/site-packages/platformdirs-4.14.5.dist-info/licenses/LICENSE",
+          "sha256": "29e0fd62e929850e86eb28c3fdccf0cefdf4fa94879011cffb3d0d4bed6d4db6"
+        }
+      ]
+    },
+    {
+      "name": "plotly",
+      "version": "7.1.0",
+      "license_expression": "MIT",
+      "license_field_first_line": "",
+      "license_classifiers": [
+        "License :: OSI Approved :: MIT License"
+      ],
+      "environments": [
+        "torch"
+      ],
+      "metadata_paths": [
+        "runtime/envs/torch/lib/python3.12/site-packages/plotly-7.1.0.dist-info/METADATA"
+      ],
+      "license_files": [
+        {
+          "path": "runtime/envs/torch/lib/python3.12/site-packages/plotly-7.1.0.dist-info/licenses/LICENSE.txt",
+          "sha256": "ba712274f8336a5f0828c8e2bf639ab8a632c623800a35f96c8b0a67b5f2ab40"
+        }
+      ]
+    },
+    {
+      "name": "plyfile",
+      "version": "1.1.2",
+      "license_expression": null,
+      "license_field_first_line": "GNU GENERAL PUBLIC LICENSE",
+      "license_classifiers": [
+        "License :: OSI Approved :: GNU General Public License v3 or later (GPLv3+)"
+      ],
+      "environments": [
+        "torch"
+      ],
+      "metadata_paths": [
+        "runtime/envs/torch/lib/python3.12/site-packages/plyfile-1.1.2.dist-info/METADATA"
+      ],
+      "license_files": [
+        {
+          "path": "runtime/envs/torch/lib/python3.12/site-packages/plyfile-1.1.2.dist-info/licenses/COPYING",
+          "sha256": "8ceb4b9ee5adedde47b31e975c1d90c73ad27b6b165a1dcd80c7c545eb65b903"
+        }
+      ]
+    },
+    {
+      "name": "pooch",
+      "version": "1.9.0",
+      "license_expression": "BSD-3-Clause",
+      "license_field_first_line": "",
+      "license_classifiers": [],
+      "environments": [
+        "hunyuan",
+        "torch"
+      ],
+      "metadata_paths": [
+        "runtime/envs/hunyuan/lib/python3.12/site-packages/pooch-1.9.0.dist-info/METADATA",
+        "runtime/envs/torch/lib/python3.12/site-packages/pooch-1.9.0.dist-info/METADATA"
+      ],
+      "license_files": [
+        {
+          "path": "runtime/envs/hunyuan/lib/python3.12/site-packages/pooch-1.9.0.dist-info/licenses/LICENSE.txt",
+          "sha256": "af0482d59fc7a9d68d9f64682c74ce6e8a4684406bb3a21a191ae329950916b4"
+        },
+        {
+          "path": "runtime/envs/torch/lib/python3.12/site-packages/pooch-1.9.0.dist-info/licenses/LICENSE.txt",
+          "sha256": "af0482d59fc7a9d68d9f64682c74ce6e8a4684406bb3a21a191ae329950916b4"
+        }
+      ]
+    },
+    {
+      "name": "protobuf",
+      "version": "7.36.2",
+      "license_expression": null,
+      "license_field_first_line": "3-Clause BSD License",
+      "license_classifiers": [],
+      "environments": [
+        "hunyuan",
+        "torch"
+      ],
+      "metadata_paths": [
+        "runtime/envs/hunyuan/lib/python3.12/site-packages/protobuf-7.36.2.dist-info/METADATA",
+        "runtime/envs/torch/lib/python3.12/site-packages/protobuf-7.36.2.dist-info/METADATA"
+      ],
+      "license_files": [
+        {
+          "path": "runtime/envs/hunyuan/lib/python3.12/site-packages/protobuf-7.36.2.dist-info/LICENSE",
+          "sha256": "6e5e117324afd944dcf67f36cf329843bc1a92229a8cd9bb573d7a83130fea7d"
+        },
+        {
+          "path": "runtime/envs/torch/lib/python3.12/site-packages/protobuf-7.36.2.dist-info/LICENSE",
+          "sha256": "6e5e117324afd944dcf67f36cf329843bc1a92229a8cd9bb573d7a83130fea7d"
+        }
+      ]
+    },
+    {
+      "name": "psutil",
+      "version": "7.2.2",
+      "license_expression": null,
+      "license_field_first_line": "BSD-3-Clause",
+      "license_classifiers": [],
+      "environments": [
+        "mv"
+      ],
+      "metadata_paths": [
+        "runtime/envs/mv/lib/python3.12/site-packages/psutil-7.2.2.dist-info/METADATA"
+      ],
+      "license_files": [
+        {
+          "path": "runtime/envs/mv/lib/python3.12/site-packages/psutil-7.2.2.dist-info/LICENSE",
+          "sha256": "b89c063b3786e28e0c0a38f1931db61fed35e69dd2a2966fbecffee0f46c8d10"
+        }
+      ]
+    },
+    {
+      "name": "pydantic",
+      "version": "2.14.2",
+      "license_expression": "MIT",
+      "license_field_first_line": "",
+      "license_classifiers": [],
+      "environments": [
+        "torch"
+      ],
+      "metadata_paths": [
+        "runtime/envs/torch/lib/python3.12/site-packages/pydantic-2.14.2.dist-info/METADATA"
+      ],
+      "license_files": [
+        {
+          "path": "runtime/envs/torch/lib/python3.12/site-packages/pydantic-2.14.2.dist-info/licenses/LICENSE",
+          "sha256": "a9e186f3ca16b5eef84318e7a701721351a00cb7b8ae3a4394b67b49e3529ef3"
+        }
+      ]
+    },
+    {
+      "name": "pydantic_core",
+      "version": "2.50.2",
+      "license_expression": "MIT",
+      "license_field_first_line": "",
+      "license_classifiers": [],
+      "environments": [
+        "torch"
+      ],
+      "metadata_paths": [
+        "runtime/envs/torch/lib/python3.12/site-packages/pydantic_core-2.50.2.dist-info/METADATA"
+      ],
+      "license_files": [
+        {
+          "path": "runtime/envs/torch/lib/python3.12/site-packages/pydantic_core-2.50.2.dist-info/licenses/LICENSE",
+          "sha256": "2afdd30d54b4d62b6f488a6bcc1546e84ec5061f13f4209c03d012348783795a"
+        }
+      ]
+    },
+    {
+      "name": "pyfqmr",
+      "version": "0.5.0",
+      "license_expression": null,
+      "license_field_first_line": "MIT",
+      "license_classifiers": [
+        "License :: OSI Approved :: MIT License"
+      ],
+      "environments": [
+        "hi3d"
+      ],
+      "metadata_paths": [
+        "runtime/envs/hi3d/lib/python3.12/site-packages/pyfqmr-0.5.0.dist-info/METADATA"
+      ],
+      "license_files": [
+        {
+          "path": "runtime/envs/hi3d/lib/python3.12/site-packages/pyfqmr-0.5.0.dist-info/licenses/LICENSE",
+          "sha256": "019753f7a4b2227295475314251cd65bb29bd109e61f4a24cb6f5776e303db91"
+        }
+      ]
+    },
+    {
+      "name": "pymeshlab",
+      "version": "2025.7.post1",
+      "license_expression": null,
+      "license_field_first_line": "GPL3",
+      "license_classifiers": [],
+      "environments": [
+        "torch"
+      ],
+      "metadata_paths": [
+        "runtime/envs/torch/lib/python3.12/site-packages/pymeshlab-2025.7.post1.dist-info/METADATA"
+      ],
+      "license_files": [
+        {
+          "path": "runtime/envs/torch/lib/python3.12/site-packages/pymeshlab-2025.7.post1.dist-info/licenses/LICENSE",
+          "sha256": "3972dc9744f6499f0f9b2dbf76696f2ae7ad8af9b23dde66d6af86c9dfb36986"
+        }
+      ]
+    },
+    {
+      "name": "pyparsing",
+      "version": "3.3.3",
+      "license_expression": "MIT",
+      "license_field_first_line": "",
+      "license_classifiers": [],
+      "environments": [
+        "torch"
+      ],
+      "metadata_paths": [
+        "runtime/envs/torch/lib/python3.12/site-packages/pyparsing-3.3.3.dist-info/METADATA"
+      ],
+      "license_files": [
+        {
+          "path": "runtime/envs/torch/lib/python3.12/site-packages/pyparsing-3.3.3.dist-info/licenses/LICENSE",
+          "sha256": "a5425f9dc14ac74d4c5f0b679e941f2442e32cca7452a4418d5b1a49893ebe4e"
+        }
+      ]
+    },
+    {
+      "name": "pyquaternion",
+      "version": "0.9.9",
+      "license_expression": null,
+      "license_field_first_line": "MIT",
+      "license_classifiers": [
+        "License :: OSI Approved :: MIT License"
+      ],
+      "environments": [
+        "torch"
+      ],
+      "metadata_paths": [
+        "runtime/envs/torch/lib/python3.12/site-packages/pyquaternion-0.9.9.dist-info/METADATA"
+      ],
+      "license_files": [
+        {
+          "path": "runtime/envs/torch/lib/python3.12/site-packages/pyquaternion-0.9.9.dist-info/LICENSE.txt",
+          "sha256": "0de20579e62ec5885fa9685c10de92493d5e53c7681217a82e3fa05645a43c5e"
+        }
+      ]
+    },
+    {
+      "name": "python-dateutil",
+      "version": "4.0.0",
+      "license_expression": "BSD-3-Clause",
+      "license_field_first_line": "",
+      "license_classifiers": [],
+      "environments": [
+        "torch"
+      ],
+      "metadata_paths": [
+        "runtime/envs/torch/lib/python3.12/site-packages/python_dateutil-4.0.0.dist-info/METADATA"
+      ],
+      "license_files": [
+        {
+          "path": "runtime/envs/torch/lib/python3.12/site-packages/python_dateutil-4.0.0.dist-info/licenses/LICENSE",
+          "sha256": "ba00f51a0d92823b5a1cde27d8b5b9d2321e67ed8da9bc163eff96d5e17e577e"
+        }
+      ]
+    },
+    {
+      "name": "pyvers",
+      "version": "0.1.0",
+      "license_expression": null,
+      "license_field_first_line": "MIT",
+      "license_classifiers": [
+        "License :: OSI Approved :: MIT License"
+      ],
+      "environments": [
+        "torch"
+      ],
+      "metadata_paths": [
+        "runtime/envs/torch/lib/python3.12/site-packages/pyvers-0.1.0.dist-info/METADATA"
+      ],
+      "license_files": [
+        {
+          "path": "runtime/envs/torch/lib/python3.12/site-packages/pyvers-0.1.0.dist-info/LICENSE",
+          "sha256": "3d37b83cfda6b43f2fe9bdaff6260ca0e9f0ebe4f71413a3966bae56a1dbf47c"
+        }
+      ]
+    },
+    {
+      "name": "referencing",
+      "version": "0.37.0",
+      "license_expression": "MIT",
+      "license_field_first_line": "",
+      "license_classifiers": [],
+      "environments": [
+        "hunyuan",
+        "torch"
+      ],
+      "metadata_paths": [
+        "runtime/envs/hunyuan/lib/python3.12/site-packages/referencing-0.37.0.dist-info/METADATA",
+        "runtime/envs/torch/lib/python3.12/site-packages/referencing-0.37.0.dist-info/METADATA"
+      ],
+      "license_files": [
+        {
+          "path": "runtime/envs/hunyuan/lib/python3.12/site-packages/referencing-0.37.0.dist-info/licenses/COPYING",
+          "sha256": "42dcd63495f87b4eb7c7757afa379bb55a53f94afd7a5f657d9adf57236e515c"
+        },
+        {
+          "path": "runtime/envs/torch/lib/python3.12/site-packages/referencing-0.37.0.dist-info/licenses/COPYING",
+          "sha256": "42dcd63495f87b4eb7c7757afa379bb55a53f94afd7a5f657d9adf57236e515c"
+        }
+      ]
+    },
+    {
+      "name": "regex",
+      "version": "2026.9.29",
+      "license_expression": "Apache-2.0 AND CNRI-Python",
+      "license_field_first_line": "",
+      "license_classifiers": [],
+      "environments": [
+        "torch"
+      ],
+      "metadata_paths": [
+        "runtime/envs/torch/lib/python3.12/site-packages/regex-2026.9.29.dist-info/METADATA"
+      ],
+      "license_files": [
+        {
+          "path": "runtime/envs/torch/lib/python3.12/site-packages/regex-2026.9.29.dist-info/licenses/LICENSE.txt",
+          "sha256": "bff55ef4cdcc8c14ce259f8e8ab60e264418440d6335f4dc138273fbd506144d"
+        }
+      ]
+    },
+    {
+      "name": "rembg",
+      "version": "2.0.57",
+      "license_expression": null,
+      "license_field_first_line": "UNKNOWN",
+      "license_classifiers": [
+        "License :: OSI Approved :: MIT License"
+      ],
+      "environments": [
+        "hunyuan",
+        "torch"
+      ],
+      "metadata_paths": [
+        "runtime/envs/hunyuan/lib/python3.12/site-packages/rembg-2.0.57.dist-info/METADATA",
+        "runtime/envs/torch/lib/python3.12/site-packages/rembg-2.0.57.dist-info/METADATA"
+      ],
+      "license_files": [
+        {
+          "path": "runtime/envs/hunyuan/lib/python3.12/site-packages/rembg-2.0.57.dist-info/LICENSE.txt",
+          "sha256": "90a3215072968fd304669c5389f04f1274a587abdd0507d99dead0f5511f8999"
+        },
+        {
+          "path": "runtime/envs/torch/lib/python3.12/site-packages/rembg-2.0.57.dist-info/LICENSE.txt",
+          "sha256": "90a3215072968fd304669c5389f04f1274a587abdd0507d99dead0f5511f8999"
+        }
+      ]
+    },
+    {
+      "name": "requests",
+      "version": "2.34.2",
+      "license_expression": null,
+      "license_field_first_line": "Apache-2.0",
+      "license_classifiers": [
+        "License :: OSI Approved :: Apache Software License"
+      ],
+      "environments": [
+        "hi3d",
+        "hunyuan",
+        "torch"
+      ],
+      "metadata_paths": [
+        "runtime/envs/hi3d/lib/python3.12/site-packages/requests-2.34.2.dist-info/METADATA",
+        "runtime/envs/hunyuan/lib/python3.12/site-packages/requests-2.34.2.dist-info/METADATA",
+        "runtime/envs/torch/lib/python3.12/site-packages/requests-2.34.2.dist-info/METADATA"
+      ],
+      "license_files": [
+        {
+          "path": "runtime/envs/hi3d/lib/python3.12/site-packages/requests-2.34.2.dist-info/licenses/LICENSE",
+          "sha256": "09e8a9bcec8067104652c168685ab0931e7868f9c8284b66f5ae6edae5f1130b"
+        },
+        {
+          "path": "runtime/envs/hi3d/lib/python3.12/site-packages/requests-2.34.2.dist-info/licenses/NOTICE",
+          "sha256": "f5110972dedad2b4e9d314518daf3b7d72d6e02e499acd802181de6f74571dcc"
+        },
+        {
+          "path": "runtime/envs/hunyuan/lib/python3.12/site-packages/requests-2.34.2.dist-info/licenses/LICENSE",
+          "sha256": "09e8a9bcec8067104652c168685ab0931e7868f9c8284b66f5ae6edae5f1130b"
+        },
+        {
+          "path": "runtime/envs/hunyuan/lib/python3.12/site-packages/requests-2.34.2.dist-info/licenses/NOTICE",
+          "sha256": "f5110972dedad2b4e9d314518daf3b7d72d6e02e499acd802181de6f74571dcc"
+        },
+        {
+          "path": "runtime/envs/torch/lib/python3.12/site-packages/requests-2.34.2.dist-info/licenses/LICENSE",
+          "sha256": "09e8a9bcec8067104652c168685ab0931e7868f9c8284b66f5ae6edae5f1130b"
+        },
+        {
+          "path": "runtime/envs/torch/lib/python3.12/site-packages/requests-2.34.2.dist-info/licenses/NOTICE",
+          "sha256": "f5110972dedad2b4e9d314518daf3b7d72d6e02e499acd802181de6f74571dcc"
+        }
+      ]
+    },
+    {
+      "name": "retrying",
+      "version": "1.4.2",
+      "license_expression": "Apache-2.0",
+      "license_field_first_line": "",
+      "license_classifiers": [],
+      "environments": [
+        "torch"
+      ],
+      "metadata_paths": [
+        "runtime/envs/torch/lib/python3.12/site-packages/retrying-1.4.2.dist-info/METADATA"
+      ],
+      "license_files": [
+        {
+          "path": "runtime/envs/torch/lib/python3.12/site-packages/retrying-1.4.2.dist-info/licenses/NOTICE.txt",
+          "sha256": "4d722127c6beefc17e7a86bebeb74f91dfa877778bda8d7f8e88bc23694a508b"
+        },
+        {
+          "path": "runtime/envs/torch/lib/python3.12/site-packages/retrying-1.4.2.dist-info/licenses/LICENSE.txt",
+          "sha256": "58d1e17ffe5109a7ae296caafcadfdbe6a7d176f0bc4ab01e12a689b0499d8bd"
+        }
+      ]
+    },
+    {
+      "name": "rpds-py",
+      "version": "2026.9.1",
+      "license_expression": "MIT",
+      "license_field_first_line": "",
+      "license_classifiers": [],
+      "environments": [
+        "hunyuan",
+        "torch"
+      ],
+      "metadata_paths": [
+        "runtime/envs/hunyuan/lib/python3.12/site-packages/rpds_py-2026.9.1.dist-info/METADATA",
+        "runtime/envs/torch/lib/python3.12/site-packages/rpds_py-2026.9.1.dist-info/METADATA"
+      ],
+      "license_files": [
+        {
+          "path": "runtime/envs/hunyuan/lib/python3.12/site-packages/rpds_py-2026.9.1.dist-info/licenses/LICENSE",
+          "sha256": "314e4e91be3baa93c0fb4bccc9e4e97cd643eb839b065af921782c2175fe9909"
+        },
+        {
+          "path": "runtime/envs/torch/lib/python3.12/site-packages/rpds_py-2026.9.1.dist-info/licenses/LICENSE",
+          "sha256": "314e4e91be3baa93c0fb4bccc9e4e97cd643eb839b065af921782c2175fe9909"
+        }
+      ]
+    },
+    {
+      "name": "safetensors",
+      "version": "0.8.0",
+      "license_expression": null,
+      "license_field_first_line": "",
+      "license_classifiers": [
+        "License :: OSI Approved :: Apache Software License"
+      ],
+      "environments": [
+        "hi3d",
+        "hunyuan",
+        "torch"
+      ],
+      "metadata_paths": [
+        "runtime/envs/hi3d/lib/python3.12/site-packages/safetensors-0.8.0.dist-info/METADATA",
+        "runtime/envs/hunyuan/lib/python3.12/site-packages/safetensors-0.8.0.dist-info/METADATA",
+        "runtime/envs/torch/lib/python3.12/site-packages/safetensors-0.8.0.dist-info/METADATA"
+      ],
+      "license_files": [
+        {
+          "path": "runtime/envs/hi3d/lib/python3.12/site-packages/safetensors-0.8.0.dist-info/licenses/LICENSE",
+          "sha256": "c71d239df91726fc519c6eb72d318ec65820627232b2f796219e87dcf35d0ab4"
+        },
+        {
+          "path": "runtime/envs/hunyuan/lib/python3.12/site-packages/safetensors-0.8.0.dist-info/licenses/LICENSE",
+          "sha256": "c71d239df91726fc519c6eb72d318ec65820627232b2f796219e87dcf35d0ab4"
+        },
+        {
+          "path": "runtime/envs/torch/lib/python3.12/site-packages/safetensors-0.8.0.dist-info/licenses/LICENSE",
+          "sha256": "c71d239df91726fc519c6eb72d318ec65820627232b2f796219e87dcf35d0ab4"
+        }
+      ]
+    },
+    {
+      "name": "scikit-image",
+      "version": "0.26.0",
+      "license_expression": null,
+      "license_field_first_line": "Files: *",
+      "license_classifiers": [
+        "License :: OSI Approved :: BSD License"
+      ],
+      "environments": [
+        "hunyuan",
+        "torch"
+      ],
+      "metadata_paths": [
+        "runtime/envs/hunyuan/lib/python3.12/site-packages/scikit_image-0.26.0.dist-info/METADATA",
+        "runtime/envs/torch/lib/python3.12/site-packages/scikit_image-0.26.0.dist-info/METADATA"
+      ],
+      "license_files": [
+        {
+          "path": "runtime/envs/hunyuan/lib/python3.12/site-packages/scikit_image-0.26.0.dist-info/LICENSE.txt",
+          "sha256": "611d3207504dcb4a808df209d2e7c9b4f2e89fe690f84735c0d548160966b527"
+        },
+        {
+          "path": "runtime/envs/torch/lib/python3.12/site-packages/scikit_image-0.26.0.dist-info/LICENSE.txt",
+          "sha256": "611d3207504dcb4a808df209d2e7c9b4f2e89fe690f84735c0d548160966b527"
+        }
+      ]
+    },
+    {
+      "name": "scikit-learn",
+      "version": "1.9.1",
+      "license_expression": "BSD-3-Clause",
+      "license_field_first_line": "",
+      "license_classifiers": [],
+      "environments": [
+        "torch"
+      ],
+      "metadata_paths": [
+        "runtime/envs/torch/lib/python3.12/site-packages/scikit_learn-1.9.1.dist-info/METADATA"
+      ],
+      "license_files": [
+        {
+          "path": "runtime/envs/torch/lib/python3.12/site-packages/scikit_learn-1.9.1.dist-info/licenses/COPYING",
+          "sha256": "fc8dc597df0e3f51da65e2a71021e7f92e0b481998ec572a53c03ac0441db040"
+        }
+      ]
+    },
+    {
+      "name": "scipy",
+      "version": "1.17.1",
+      "license_expression": null,
+      "license_field_first_line": "Copyright (c) 2001-2002 Enthought, Inc. 2003, SciPy Developers.",
+      "license_classifiers": [
+        "License :: OSI Approved :: BSD License"
+      ],
+      "environments": [
+        "hi3d",
+        "hunyuan",
+        "torch"
+      ],
+      "metadata_paths": [
+        "runtime/envs/hi3d/lib/python3.12/site-packages/scipy-1.17.1.dist-info/METADATA",
+        "runtime/envs/hunyuan/lib/python3.12/site-packages/scipy-1.17.1.dist-info/METADATA",
+        "runtime/envs/torch/lib/python3.12/site-packages/scipy-1.17.1.dist-info/METADATA"
+      ],
+      "license_files": [
+        {
+          "path": "runtime/envs/hi3d/lib/python3.12/site-packages/scipy-1.17.1.dist-info/LICENSE.txt",
+          "sha256": "60a7d05d729ed5c763852a324a1cb4223d665d4ad3f4b8a0c130ae5c60c93e49"
+        },
+        {
+          "path": "runtime/envs/hunyuan/lib/python3.12/site-packages/scipy-1.17.1.dist-info/LICENSE.txt",
+          "sha256": "60a7d05d729ed5c763852a324a1cb4223d665d4ad3f4b8a0c130ae5c60c93e49"
+        },
+        {
+          "path": "runtime/envs/torch/lib/python3.12/site-packages/scipy-1.17.1.dist-info/LICENSE.txt",
+          "sha256": "60a7d05d729ed5c763852a324a1cb4223d665d4ad3f4b8a0c130ae5c60c93e49"
+        }
+      ]
+    },
+    {
+      "name": "sentencepiece",
+      "version": "0.2.3",
+      "license_expression": "Apache-2.0",
+      "license_field_first_line": "",
+      "license_classifiers": [],
+      "environments": [
+        "mv"
+      ],
+      "metadata_paths": [
+        "runtime/envs/mv/lib/python3.12/site-packages/sentencepiece-0.2.3.dist-info/METADATA"
+      ],
+      "license_files": []
+    },
+    {
+      "name": "setuptools",
+      "version": "84.2.1",
+      "license_expression": "MIT",
+      "license_field_first_line": "",
+      "license_classifiers": [],
+      "environments": [
+        "hunyuan",
+        "torch"
+      ],
+      "metadata_paths": [
+        "runtime/envs/hunyuan/lib/python3.12/site-packages/setuptools-84.2.1.dist-info/METADATA",
+        "runtime/envs/torch/lib/python3.12/site-packages/setuptools-84.2.1.dist-info/METADATA"
+      ],
+      "license_files": [
+        {
+          "path": "runtime/envs/hunyuan/lib/python3.12/site-packages/setuptools-84.2.1.dist-info/licenses/LICENSE",
+          "sha256": "86da0f01aeae46348a3c3d465195dc1ceccde79f79e87769a64b8da04b2a4741"
+        },
+        {
+          "path": "runtime/envs/torch/lib/python3.12/site-packages/setuptools-84.2.1.dist-info/licenses/LICENSE",
+          "sha256": "86da0f01aeae46348a3c3d465195dc1ceccde79f79e87769a64b8da04b2a4741"
+        }
+      ]
+    },
+    {
+      "name": "sympy",
+      "version": "1.13.1",
+      "license_expression": null,
+      "license_field_first_line": "BSD",
+      "license_classifiers": [
+        "License :: OSI Approved :: BSD License"
+      ],
+      "environments": [
+        "hunyuan",
+        "torch"
+      ],
+      "metadata_paths": [
+        "runtime/envs/hunyuan/lib/python3.12/site-packages/sympy-1.13.1.dist-info/METADATA",
+        "runtime/envs/torch/lib/python3.12/site-packages/sympy-1.13.1.dist-info/METADATA"
+      ],
+      "license_files": [
+        {
+          "path": "runtime/envs/hunyuan/lib/python3.12/site-packages/sympy-1.13.1.dist-info/LICENSE",
+          "sha256": "07a5e9819f727b4986ad2829c7a29a6320d42575f720eb24d71b7fef573a0286"
+        },
+        {
+          "path": "runtime/envs/torch/lib/python3.12/site-packages/sympy-1.13.1.dist-info/LICENSE",
+          "sha256": "07a5e9819f727b4986ad2829c7a29a6320d42575f720eb24d71b7fef573a0286"
+        }
+      ]
+    },
+    {
+      "name": "tensordict",
+      "version": "0.10.0",
+      "license_expression": null,
+      "license_field_first_line": "BSD",
+      "license_classifiers": [],
+      "environments": [
+        "torch"
+      ],
+      "metadata_paths": [
+        "runtime/envs/torch/lib/python3.12/site-packages/tensordict-0.10.0.dist-info/METADATA"
+      ],
+      "license_files": [
+        {
+          "path": "runtime/envs/torch/lib/python3.12/site-packages/tensordict-0.10.0.dist-info/licenses/LICENSE",
+          "sha256": "c5d8d2e3fc64f88c272ee2050af4d84e5f58f1a5d17a3aa99a47b77466a6fe72"
+        }
+      ]
+    },
+    {
+      "name": "threadpoolctl",
+      "version": "3.7.0",
+      "license_expression": "BSD-3-Clause",
+      "license_field_first_line": "",
+      "license_classifiers": [],
+      "environments": [
+        "torch"
+      ],
+      "metadata_paths": [
+        "runtime/envs/torch/lib/python3.12/site-packages/threadpoolctl-3.7.0.dist-info/METADATA"
+      ],
+      "license_files": [
+        {
+          "path": "runtime/envs/torch/lib/python3.12/site-packages/threadpoolctl-3.7.0.dist-info/licenses/LICENSE",
+          "sha256": "81ac619075248b06e53660b652d10e485f4675f5d0ae0f97ea22370da1f7e23b"
+        }
+      ]
+    },
+    {
+      "name": "tifffile",
+      "version": "2026.3.3",
+      "license_expression": null,
+      "license_field_first_line": "BSD-3-Clause",
+      "license_classifiers": [],
+      "environments": [
+        "hunyuan",
+        "torch"
+      ],
+      "metadata_paths": [
+        "runtime/envs/hunyuan/lib/python3.12/site-packages/tifffile-2026.3.3.dist-info/METADATA",
+        "runtime/envs/torch/lib/python3.12/site-packages/tifffile-2026.3.3.dist-info/METADATA"
+      ],
+      "license_files": [
+        {
+          "path": "runtime/envs/hunyuan/lib/python3.12/site-packages/tifffile-2026.3.3.dist-info/licenses/LICENSE",
+          "sha256": "65e641f17cfce25ed2c02f0d53c94cfa2382cc8817eca649a7fff2b890114aa4"
+        },
+        {
+          "path": "runtime/envs/torch/lib/python3.12/site-packages/tifffile-2026.3.3.dist-info/licenses/LICENSE",
+          "sha256": "65e641f17cfce25ed2c02f0d53c94cfa2382cc8817eca649a7fff2b890114aa4"
+        }
+      ]
+    },
+    {
+      "name": "timm",
+      "version": "1.0.31",
+      "license_expression": null,
+      "license_field_first_line": "Apache-2.0",
+      "license_classifiers": [
+        "License :: OSI Approved :: Apache Software License"
+      ],
+      "environments": [
+        "torch"
+      ],
+      "metadata_paths": [
+        "runtime/envs/torch/lib/python3.12/site-packages/timm-1.0.31.dist-info/METADATA"
+      ],
+      "license_files": [
+        {
+          "path": "runtime/envs/torch/lib/python3.12/site-packages/timm-1.0.31.dist-info/licenses/LICENSE",
+          "sha256": "71b111620fa32c17a80ccd6db2da759d31a591e497d8b5f382174f59d1b59d49"
+        }
+      ]
+    },
+    {
+      "name": "tokenizers",
+      "version": "0.22.2",
+      "license_expression": null,
+      "license_field_first_line": "",
+      "license_classifiers": [
+        "License :: OSI Approved :: Apache Software License"
+      ],
+      "environments": [
+        "torch"
+      ],
+      "metadata_paths": [
+        "runtime/envs/torch/lib/python3.12/site-packages/tokenizers-0.22.2.dist-info/METADATA"
+      ],
+      "license_files": []
+    },
+    {
+      "name": "torch",
+      "version": "2.5.1",
+      "license_expression": null,
+      "license_field_first_line": "BSD-3-Clause",
+      "license_classifiers": [
+        "License :: OSI Approved :: BSD License"
+      ],
+      "environments": [
+        "hunyuan",
+        "torch"
+      ],
+      "metadata_paths": [
+        "runtime/envs/hunyuan/lib/python3.12/site-packages/torch-2.5.1.dist-info/METADATA",
+        "runtime/envs/torch/lib/python3.12/site-packages/torch-2.5.1.dist-info/METADATA"
+      ],
+      "license_files": [
+        {
+          "path": "runtime/envs/hunyuan/lib/python3.12/site-packages/torch-2.5.1.dist-info/LICENSE",
+          "sha256": "777b1e8c7493bdeb534962360712b91af6f458f7e847b4433be83f843ad9e34d"
+        },
+        {
+          "path": "runtime/envs/hunyuan/lib/python3.12/site-packages/torch-2.5.1.dist-info/NOTICE",
+          "sha256": "c2cc7bf0caec7652c2b460a8a470bea1677f241e4ab8e431df34cf17f5a9fec0"
+        },
+        {
+          "path": "runtime/envs/torch/lib/python3.12/site-packages/torch-2.5.1.dist-info/LICENSE",
+          "sha256": "777b1e8c7493bdeb534962360712b91af6f458f7e847b4433be83f843ad9e34d"
+        },
+        {
+          "path": "runtime/envs/torch/lib/python3.12/site-packages/torch-2.5.1.dist-info/NOTICE",
+          "sha256": "c2cc7bf0caec7652c2b460a8a470bea1677f241e4ab8e431df34cf17f5a9fec0"
+        }
+      ]
+    },
+    {
+      "name": "torchvision",
+      "version": "0.20.1",
+      "license_expression": null,
+      "license_field_first_line": "BSD",
+      "license_classifiers": [],
+      "environments": [
+        "torch"
+      ],
+      "metadata_paths": [
+        "runtime/envs/torch/lib/python3.12/site-packages/torchvision-0.20.1.dist-info/METADATA"
+      ],
+      "license_files": [
+        {
+          "path": "runtime/envs/torch/lib/python3.12/site-packages/torchvision-0.20.1.dist-info/LICENSE",
+          "sha256": "6502f676851cfe25f8af75531dfb32375b7325b73c37e7b43741fa422893e71d"
+        }
+      ]
+    },
+    {
+      "name": "tqdm",
+      "version": "4.70.1",
+      "license_expression": null,
+      "license_field_first_line": "MPL-2.0 AND MIT",
+      "license_classifiers": [],
+      "environments": [
+        "hi3d",
+        "hunyuan",
+        "torch"
+      ],
+      "metadata_paths": [
+        "runtime/envs/hi3d/lib/python3.12/site-packages/tqdm-4.70.1.dist-info/METADATA",
+        "runtime/envs/hunyuan/lib/python3.12/site-packages/tqdm-4.70.1.dist-info/METADATA",
+        "runtime/envs/torch/lib/python3.12/site-packages/tqdm-4.70.1.dist-info/METADATA"
+      ],
+      "license_files": [
+        {
+          "path": "runtime/envs/hi3d/lib/python3.12/site-packages/tqdm-4.70.1.dist-info/licenses/LICENCE",
+          "sha256": "fcff87c3a47ce8028a8512aa182d4fcf0ad1c90544ee75cf9b343684cac194de"
+        },
+        {
+          "path": "runtime/envs/hunyuan/lib/python3.12/site-packages/tqdm-4.70.1.dist-info/licenses/LICENCE",
+          "sha256": "fcff87c3a47ce8028a8512aa182d4fcf0ad1c90544ee75cf9b343684cac194de"
+        },
+        {
+          "path": "runtime/envs/torch/lib/python3.12/site-packages/tqdm-4.70.1.dist-info/licenses/LICENCE",
+          "sha256": "fcff87c3a47ce8028a8512aa182d4fcf0ad1c90544ee75cf9b343684cac194de"
+        }
+      ]
+    },
+    {
+      "name": "traitlets",
+      "version": "5.16.1",
+      "license_expression": null,
+      "license_field_first_line": "BSD 3-Clause License",
+      "license_classifiers": [
+        "License :: OSI Approved :: BSD License"
+      ],
+      "environments": [
+        "torch"
+      ],
+      "metadata_paths": [
+        "runtime/envs/torch/lib/python3.12/site-packages/traitlets-5.16.1.dist-info/METADATA"
+      ],
+      "license_files": [
+        {
+          "path": "runtime/envs/torch/lib/python3.12/site-packages/traitlets-5.16.1.dist-info/licenses/LICENSE",
+          "sha256": "2f51727d9063b54856773cb51388bdb79f2936ee4a1b692ef553d8c4201311ab"
+        }
+      ]
+    },
+    {
+      "name": "transformers",
+      "version": "4.57.3",
+      "license_expression": null,
+      "license_field_first_line": "Apache 2.0 License",
+      "license_classifiers": [
+        "License :: OSI Approved :: Apache Software License"
+      ],
+      "environments": [
+        "torch"
+      ],
+      "metadata_paths": [
+        "runtime/envs/torch/lib/python3.12/site-packages/transformers-4.57.3.dist-info/METADATA"
+      ],
+      "license_files": [
+        {
+          "path": "runtime/envs/torch/lib/python3.12/site-packages/transformers-4.57.3.dist-info/licenses/LICENSE",
+          "sha256": "77fd4710def9ec3c0f6225800e0235f15a425abd4a8b03559127fcd782612049"
+        }
+      ]
+    },
+    {
+      "name": "trimesh",
+      "version": "5.2.0",
+      "license_expression": null,
+      "license_field_first_line": "The MIT License (MIT)",
+      "license_classifiers": [
+        "License :: OSI Approved :: MIT License"
+      ],
+      "environments": [
+        "hi3d",
+        "hunyuan",
+        "torch"
+      ],
+      "metadata_paths": [
+        "runtime/envs/hi3d/lib/python3.12/site-packages/trimesh-5.2.0.dist-info/METADATA",
+        "runtime/envs/hunyuan/lib/python3.12/site-packages/trimesh-5.2.0.dist-info/METADATA",
+        "runtime/envs/torch/lib/python3.12/site-packages/trimesh-5.2.0.dist-info/METADATA"
+      ],
+      "license_files": [
+        {
+          "path": "runtime/envs/hi3d/lib/python3.12/site-packages/trimesh-5.2.0.dist-info/licenses/LICENSE.md",
+          "sha256": "fe27b5ef8710676cc85255da28a32f394e2ef3f4ce47075a1c732a9ea1d7bd03"
+        },
+        {
+          "path": "runtime/envs/hunyuan/lib/python3.12/site-packages/trimesh-5.2.0.dist-info/licenses/LICENSE.md",
+          "sha256": "fe27b5ef8710676cc85255da28a32f394e2ef3f4ce47075a1c732a9ea1d7bd03"
+        },
+        {
+          "path": "runtime/envs/torch/lib/python3.12/site-packages/trimesh-5.2.0.dist-info/licenses/LICENSE.md",
+          "sha256": "fe27b5ef8710676cc85255da28a32f394e2ef3f4ce47075a1c732a9ea1d7bd03"
+        }
+      ]
+    },
+    {
+      "name": "typing-inspection",
+      "version": "0.4.5",
+      "license_expression": "MIT",
+      "license_field_first_line": "",
+      "license_classifiers": [],
+      "environments": [
+        "torch"
+      ],
+      "metadata_paths": [
+        "runtime/envs/torch/lib/python3.12/site-packages/typing_inspection-0.4.5.dist-info/METADATA"
+      ],
+      "license_files": [
+        {
+          "path": "runtime/envs/torch/lib/python3.12/site-packages/typing_inspection-0.4.5.dist-info/licenses/LICENSE",
+          "sha256": "804b59b25f2c31bd278f9202a19ae49a3945aa2664387e2d0a128c7cacc61ec3"
+        }
+      ]
+    },
+    {
+      "name": "typing_extensions",
+      "version": "4.16.0",
+      "license_expression": "PSF-2.0",
+      "license_field_first_line": "",
+      "license_classifiers": [],
+      "environments": [
+        "hi3d",
+        "hunyuan",
+        "torch"
+      ],
+      "metadata_paths": [
+        "runtime/envs/hi3d/lib/python3.12/site-packages/typing_extensions-4.16.0.dist-info/METADATA",
+        "runtime/envs/hunyuan/lib/python3.12/site-packages/typing_extensions-4.16.0.dist-info/METADATA",
+        "runtime/envs/torch/lib/python3.12/site-packages/typing_extensions-4.16.0.dist-info/METADATA"
+      ],
+      "license_files": [
+        {
+          "path": "runtime/envs/hi3d/lib/python3.12/site-packages/typing_extensions-4.16.0.dist-info/licenses/LICENSE",
+          "sha256": "3b2f81fe21d181c499c59a256c8e1968455d6689d269aa85373bfb6af41da3bf"
+        },
+        {
+          "path": "runtime/envs/hunyuan/lib/python3.12/site-packages/typing_extensions-4.16.0.dist-info/licenses/LICENSE",
+          "sha256": "3b2f81fe21d181c499c59a256c8e1968455d6689d269aa85373bfb6af41da3bf"
+        },
+        {
+          "path": "runtime/envs/torch/lib/python3.12/site-packages/typing_extensions-4.16.0.dist-info/licenses/LICENSE",
+          "sha256": "3b2f81fe21d181c499c59a256c8e1968455d6689d269aa85373bfb6af41da3bf"
+        }
+      ]
+    },
+    {
+      "name": "tzdata",
+      "version": "2026.6",
+      "license_expression": null,
+      "license_field_first_line": "Apache-2.0",
+      "license_classifiers": [],
+      "environments": [
+        "torch"
+      ],
+      "metadata_paths": [
+        "runtime/envs/torch/lib/python3.12/site-packages/tzdata-2026.6.dist-info/METADATA"
+      ],
+      "license_files": [
+        {
+          "path": "runtime/envs/torch/lib/python3.12/site-packages/tzdata-2026.6.dist-info/licenses/LICENSE",
+          "sha256": "df58f69ea88683035d720b5375bcef0cf5aeaa98a1d098d572e0992c378deb46"
+        },
+        {
+          "path": "runtime/envs/torch/lib/python3.12/site-packages/tzdata-2026.6.dist-info/licenses/licenses/LICENSE_APACHE",
+          "sha256": "c71d239df91726fc519c6eb72d318ec65820627232b2f796219e87dcf35d0ab4"
+        }
+      ]
+    },
+    {
+      "name": "urllib3",
+      "version": "2.8.0",
+      "license_expression": "MIT",
+      "license_field_first_line": "",
+      "license_classifiers": [],
+      "environments": [
+        "hi3d",
+        "hunyuan",
+        "torch"
+      ],
+      "metadata_paths": [
+        "runtime/envs/hi3d/lib/python3.12/site-packages/urllib3-2.8.0.dist-info/METADATA",
+        "runtime/envs/hunyuan/lib/python3.12/site-packages/urllib3-2.8.0.dist-info/METADATA",
+        "runtime/envs/torch/lib/python3.12/site-packages/urllib3-2.8.0.dist-info/METADATA"
+      ],
+      "license_files": [
+        {
+          "path": "runtime/envs/hi3d/lib/python3.12/site-packages/urllib3-2.8.0.dist-info/licenses/LICENSE.txt",
+          "sha256": "130e3a64d5fdd5d096a752694634a7d9df284469de86e5732100268041e3d686"
+        },
+        {
+          "path": "runtime/envs/hunyuan/lib/python3.12/site-packages/urllib3-2.8.0.dist-info/licenses/LICENSE.txt",
+          "sha256": "130e3a64d5fdd5d096a752694634a7d9df284469de86e5732100268041e3d686"
+        },
+        {
+          "path": "runtime/envs/torch/lib/python3.12/site-packages/urllib3-2.8.0.dist-info/licenses/LICENSE.txt",
+          "sha256": "130e3a64d5fdd5d096a752694634a7d9df284469de86e5732100268041e3d686"
+        }
+      ]
+    },
+    {
+      "name": "utils3d",
+      "version": "0.0.2",
+      "license_expression": null,
+      "license_field_first_line": "MIT",
+      "license_classifiers": [
+        "License :: OSI Approved :: MIT License"
+      ],
+      "environments": [
+        "torch"
+      ],
+      "metadata_paths": [
+        "runtime/envs/torch/lib/python3.12/site-packages/utils3d-0.0.2.dist-info/METADATA"
+      ],
+      "license_files": [
+        {
+          "path": "runtime/envs/torch/lib/python3.12/site-packages/utils3d-0.0.2.dist-info/licenses/LICENSE",
+          "sha256": "197b6e9eeec3ebf5ff80edc89c0eecc9f33fff0b9074500c042ce67ff6665d3d"
+        }
+      ]
+    },
+    {
+      "name": "xatlas",
+      "version": "0.0.11",
+      "license_expression": null,
+      "license_field_first_line": "MIT License",
+      "license_classifiers": [],
+      "environments": [
+        "hunyuan",
+        "torch"
+      ],
+      "metadata_paths": [
+        "runtime/envs/hunyuan/lib/python3.12/site-packages/xatlas-0.0.11.dist-info/METADATA",
+        "runtime/envs/torch/lib/python3.12/site-packages/xatlas-0.0.11.dist-info/METADATA"
+      ],
+      "license_files": [
+        {
+          "path": "runtime/envs/hunyuan/lib/python3.12/site-packages/xatlas-0.0.11.dist-info/licenses/LICENSE",
+          "sha256": "095750fc0f9031d1a517cf734690d50cfd98c08a1d09473be006b86f488a4fc8"
+        },
+        {
+          "path": "runtime/envs/torch/lib/python3.12/site-packages/xatlas-0.0.11.dist-info/licenses/LICENSE",
+          "sha256": "095750fc0f9031d1a517cf734690d50cfd98c08a1d09473be006b86f488a4fc8"
+        }
+      ]
+    },
+    {
+      "name": "zipp",
+      "version": "4.1.2",
+      "license_expression": "MIT",
+      "license_field_first_line": "",
+      "license_classifiers": [],
+      "environments": [
+        "torch"
+      ],
+      "metadata_paths": [
+        "runtime/envs/torch/lib/python3.12/site-packages/zipp-4.1.2.dist-info/METADATA"
+      ],
+      "license_files": [
+        {
+          "path": "runtime/envs/torch/lib/python3.12/site-packages/zipp-4.1.2.dist-info/licenses/LICENSE",
+          "sha256": "9755a18519666e5f0f4cae3daad3d7012bcae48a600b31237d75e9fe134e6683"
+        }
+      ]
+    }
+  ],
+  "frontend_packages": [
+    {
+      "path": "node_modules/@mkkellogg/gaussian-splats-3d",
+      "version": "0.4.7",
+      "license": "MIT"
+    },
+    {
+      "path": "node_modules/three",
+      "version": "0.181.2",
+      "license": "MIT"
+    }
+  ],
+  "model_manifest": {
+    "hunyuan-mini": {
+      "repo": "tencent/Hunyuan3D-2mini",
+      "revision": "f90a0f7df7d5e6f71109cf333f6a95a0ae3194a6",
+      "files": [
+        "hunyuan3d-dit-v2-mini/config.yaml",
+        "hunyuan3d-dit-v2-mini/model.fp16.safetensors"
+      ]
+    },
+    "hunyuan-21": {
+      "repo": "tencent/Hunyuan3D-2.1",
+      "revision": "0b94677654c57bb9a6b6845cd7b704ccf551d327",
+      "files": [
+        "hunyuan3d-dit-v2-1/config.yaml",
+        "hunyuan3d-dit-v2-1/model.fp16.ckpt"
+      ]
+    },
+    "trellis": {
+      "repo": "microsoft/TRELLIS.2-4B",
+      "revision": "af44b45f2e35a493886929c6d786e563ec68364d",
+      "files": [
+        "pipeline.json",
+        "ckpts/ss_flow_img_dit_1_3B_64_bf16.json",
+        "ckpts/ss_flow_img_dit_1_3B_64_bf16.safetensors",
+        "ckpts/shape_dec_next_dc_f16c32_fp16.json",
+        "ckpts/shape_dec_next_dc_f16c32_fp16.safetensors",
+        "ckpts/slat_flow_img2shape_dit_1_3B_512_bf16.json",
+        "ckpts/slat_flow_img2shape_dit_1_3B_512_bf16.safetensors",
+        "ckpts/tex_dec_next_dc_f16c32_fp16.json",
+        "ckpts/tex_dec_next_dc_f16c32_fp16.safetensors",
+        "ckpts/slat_flow_imgshape2tex_dit_1_3B_512_bf16.json",
+        "ckpts/slat_flow_imgshape2tex_dit_1_3B_512_bf16.safetensors"
+      ]
+    },
+    "trellis-ss": {
+      "repo": "microsoft/TRELLIS-image-large",
+      "revision": "25e0d31ffbebe4b5a97464dd851910efc3002d96",
+      "files": [
+        "ckpts/ss_dec_conv3d_16l8_fp16.json",
+        "ckpts/ss_dec_conv3d_16l8_fp16.safetensors"
+      ]
+    },
+    "dino-l": {
+      "repo": "facebook/dinov3-vitl16-pretrain-lvd1689m",
+      "revision": "ea8dc2863c51be0a264bab82070e3e8836b02d51",
+      "files": [
+        "config.json",
+        "model.safetensors",
+        "preprocessor_config.json"
+      ]
+    },
+    "idol": {
+      "repo": "speridlabs/idol",
+      "revision": "2731c2291fc65a797c5cb627a5e5526fc1490902",
+      "files": [
+        "config.json",
+        "denoiser.safetensors",
+        "decoder.safetensors",
+        "decoder_gs.safetensors"
+      ]
+    },
+    "dino-h": {
+      "repo": "facebook/dinov3-vith16plus-pretrain-lvd1689m",
+      "revision": "c807c9eeea853df70aec4069e6f56b28ddc82acc",
+      "files": [
+        "config.json",
+        "model.safetensors",
+        "preprocessor_config.json"
+      ]
+    },
+    "flux": {
+      "repo": "black-forest-labs/FLUX.2-dev",
+      "revision": "26afe3a78bb242c0a8bb181dcc8937bb16e5c66c",
+      "files": [
+        "vae/config.json",
+        "vae/diffusion_pytorch_model.safetensors"
+      ]
+    },
+    "hi3d": {
+      "repo": "mlx-community/Hi3Dv1.0-mlx",
+      "revision": "195cfd9974fc9d22094d8b14ef823da08c0d1402",
+      "patterns": [
+        "*.json",
+        "*.safetensors",
+        "LICENSE*",
+        "NOTICE*",
+        "README.md"
+      ]
+    },
+    "hunyuan-paint": {
+      "repo": "tencent/Hunyuan3D-2",
+      "revision": "9cd649ba6913f7a852e3286bad86bfa9a2d83dcf",
+      "files": [
+        "hunyuan3d-paint-v2-0/unet/config.json",
+        "hunyuan3d-paint-v2-0/unet/diffusion_pytorch_model.safetensors",
+        "hunyuan3d-paint-v2-0/vae/config.json",
+        "hunyuan3d-paint-v2-0/vae/diffusion_pytorch_model.safetensors"
+      ]
+    },
+    "mv-adapter": {
+      "repo": "huanngzh/mv-adapter",
+      "revision": "6de4033df6b53366f3c009d22f5ec434bb55e59f",
+      "files": [
+        "mvadapter_ig2mv_sd21.safetensors"
+      ]
+    },
+    "sd21": {
+      "repo": "sd2-community/stable-diffusion-2-1-base",
+      "revision": "4e63672c03103b6c636b8fb4119ba982469b2955",
+      "files": [
+        "model_index.json",
+        "scheduler/scheduler_config.json",
+        "tokenizer/vocab.json",
+        "tokenizer/merges.txt",
+        "tokenizer/tokenizer_config.json",
+        "tokenizer/special_tokens_map.json",
+        "text_encoder/config.json",
+        "text_encoder/model.safetensors",
+        "unet/config.json",
+        "unet/diffusion_pytorch_model.safetensors",
+        "vae/config.json",
+        "vae/diffusion_pytorch_model.safetensors",
+        "feature_extractor/preprocessor_config.json"
+      ]
+    }
+  }
+}

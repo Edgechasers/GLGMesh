@@ -2,6 +2,8 @@
 
 GLGMesh orchestrates these projects. It does not claim ownership of their models or replace their licenses. Repository commits are pinned in `glgmesh/config.py`; weight revisions and file lists are pinned in `weights.json`. The original repositories and downloaded model notices remain under `runtime/`.
 
+The [GLGMesh Attribution and Commercial Software License](LICENSE) requires compliance with each component's individual license, including applicable restrictions on commercial use, redistribution and generated outputs. A commercial license from Edgechasers grants only the GLGMesh rights specified in that agreement; it cannot grant or waive third-party rights. Original third-party notices and licenses remain in force. A combination whose licenses conflict requires additional permissions or replacement of the conflicting component.
+
 | Component | Upstream / distribution |
 |---|---|
 | Hunyuan Mini / 2.1 weights | https://huggingface.co/tencent/Hunyuan3D-2mini · https://huggingface.co/tencent/Hunyuan3D-2.1 |
