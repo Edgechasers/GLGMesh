@@ -1,0 +1,18 @@
+runtime/
+runs/
+__pycache__/
+*.pyc
+.DS_Store
+frontend/node_modules/
+# Local experiments, review records, credentials and generated builds.
+comparisons/
+validation/
+output/
+dist/
+.playwright-cli/
+.env
+.env.*
+*.log
+.venv/
+.godot/
+*.blend1

@@ -1,0 +1,71 @@
+diff --git a/backends/texture_baker.py b/backends/texture_baker.py
+index f1a1742..11e1fe4 100644
+--- a/backends/texture_baker.py
++++ b/backends/texture_baker.py
+@@ -57,16 +57,16 @@ def _rasterize_uv_triangles(vertices, faces, uvs, texture_size):
+     mask = np.zeros((H, W), dtype=bool)
+ 
+     n_faces = len(faces)
+-    uv_scale = np.array([W - 1, H - 1], dtype=np.float32)
++    uv_scale = np.array([W, H], dtype=np.float32)
+ 
+     for fi in range(n_faces):
+         if fi > 0 and fi % 100000 == 0:
+             print(f"    Rasterizing: {fi:,}/{n_faces:,}")
+ 
+         i0, i1, i2 = faces[fi]
+-        uv0 = uvs[i0] * uv_scale
+-        uv1 = uvs[i1] * uv_scale
+-        uv2 = uvs[i2] * uv_scale
++        uv0 = uvs[i0] * uv_scale - 0.5
++        uv1 = uvs[i1] * uv_scale - 0.5
++        uv2 = uvs[i2] * uv_scale - 0.5
+         p0, p1, p2 = vertices[i0], vertices[i1], vertices[i2]
+ 
+         min_x = max(int(np.floor(min(uv0[0], uv1[0], uv2[0]))), 0)
+@@ -204,22 +204,17 @@ def bake_texture(vertices, faces, uvs, voxel_coords, voxel_attrs, origin, voxel_
+     valid_mask = np.zeros((H, W), dtype=bool)
+     valid_mask[ys[valid], xs[valid]] = True
+ 
+-    # Fill holes via iterative dilation
+-    from scipy.ndimage import binary_dilation, uniform_filter
+-    current_mask = valid_mask.copy()
+-    for _ in range(8):
+-        dilated = binary_dilation(current_mask, iterations=1)
+-        unfilled = dilated & ~current_mask
+-        if not unfilled.any():
+-            break
+-        for c in range(3):
+-            channel = base_color[:, :, c]
+-            blurred = uniform_filter(channel, size=3)
+-            channel[unfilled] = blurred[unfilled]
+-        current_mask = dilated
+-
+-    # Gamma correction: linear -> sRGB
+-    base_color = np.power(np.clip(base_color, 0, 1), 1.0 / 2.2)
++    # Extend valid texels with nearest valid color; averaging zero-filled holes causes dark UV seams.
++    from scipy.ndimage import distance_transform_edt
++    if not valid_mask.any():raise ValueError('No valid texture texels')
++    nearest=distance_transform_edt(~valid_mask,return_distances=False,return_indices=True)
++    base_color=base_color[nearest[0],nearest[1]]
++    metallic=metallic[nearest[0],nearest[1]]
++    roughness=roughness[nearest[0],nearest[1]]
++    current_mask=np.ones_like(valid_mask)
++
++    # Match official o_voxel/postprocess.py: base-color attributes are stored directly.
++    base_color = np.clip(base_color, 0, 1)
+ 
+     base_color_img = (base_color * 255).astype(np.uint8)
+ 
+@@ -245,8 +240,9 @@ def export_glb_with_texture(vertices, faces, uvs, base_color_img, mr_img=None, o
+ 
+     material = trimesh.visual.material.PBRMaterial(
+         baseColorTexture=base_color_pil,
+-        metallicFactor=0.0,
+-        roughnessFactor=0.8,
++        metallicFactor=1.0,
++        roughnessFactor=1.0,
++        doubleSided=True,
+     )
+ 
+     if mr_img is not None:

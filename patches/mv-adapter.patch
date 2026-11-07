@@ -1,0 +1,13 @@
+diff --git a/mvadapter/utils/mesh_utils/utils.py b/mvadapter/utils/mesh_utils/utils.py
+index fcb965f..7320f67 100644
+--- a/mvadapter/utils/mesh_utils/utils.py
++++ b/mvadapter/utils/mesh_utils/utils.py
+@@ -7,7 +7,7 @@ from datetime import datetime
+ from typing import List, Optional, Union
+ 
+ import numpy as np
+-import nvdiffrast.torch as dr
++
+ import torch
+ import torch.nn.functional as F
+ import trimesh

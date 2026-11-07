@@ -1,0 +1,13 @@
+diff --git a/python/shape/hy3dmlx/convert.py b/python/shape/hy3dmlx/convert.py
+index 3cf2705..d086a16 100644
+--- a/python/shape/hy3dmlx/convert.py
++++ b/python/shape/hy3dmlx/convert.py
+@@ -65,7 +65,7 @@ def _build_dino(cfg: dict, dino_items: dict):
+ 
+ # Keep these in fp16 even when quantizing: small, quality-critical input/output
+ # projections (the latent in/out and conditioning projection) and DINO embeddings.
+-_QUANT_SKIP_DIT = ("latent_in", "time_in", "cond_in", "guidance_in", "final_layer", "x_embedder")
++_QUANT_SKIP_DIT = ("latent_in", "time_in", "cond_in", "guidance_in", "final_layer", "x_embedder", "t_embedder")
+ _QUANT_SKIP_DINO = ("embeddings",)
+ 
+ 

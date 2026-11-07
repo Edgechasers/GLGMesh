@@ -1,0 +1,126 @@
+{
+  "hunyuan-mini": {
+    "repo": "tencent/Hunyuan3D-2mini",
+    "revision": "f90a0f7df7d5e6f71109cf333f6a95a0ae3194a6",
+    "files": [
+      "hunyuan3d-dit-v2-mini/config.yaml",
+      "hunyuan3d-dit-v2-mini/model.fp16.safetensors"
+    ]
+  },
+  "hunyuan-21": {
+    "repo": "tencent/Hunyuan3D-2.1",
+    "revision": "0b94677654c57bb9a6b6845cd7b704ccf551d327",
+    "files": [
+      "hunyuan3d-dit-v2-1/config.yaml",
+      "hunyuan3d-dit-v2-1/model.fp16.ckpt"
+    ]
+  },
+  "trellis": {
+    "repo": "microsoft/TRELLIS.2-4B",
+    "revision": "af44b45f2e35a493886929c6d786e563ec68364d",
+    "files": [
+      "pipeline.json",
+      "ckpts/ss_flow_img_dit_1_3B_64_bf16.json",
+      "ckpts/ss_flow_img_dit_1_3B_64_bf16.safetensors",
+      "ckpts/shape_dec_next_dc_f16c32_fp16.json",
+      "ckpts/shape_dec_next_dc_f16c32_fp16.safetensors",
+      "ckpts/slat_flow_img2shape_dit_1_3B_512_bf16.json",
+      "ckpts/slat_flow_img2shape_dit_1_3B_512_bf16.safetensors",
+      "ckpts/tex_dec_next_dc_f16c32_fp16.json",
+      "ckpts/tex_dec_next_dc_f16c32_fp16.safetensors",
+      "ckpts/slat_flow_imgshape2tex_dit_1_3B_512_bf16.json",
+      "ckpts/slat_flow_imgshape2tex_dit_1_3B_512_bf16.safetensors"
+    ]
+  },
+  "trellis-ss": {
+    "repo": "microsoft/TRELLIS-image-large",
+    "revision": "25e0d31ffbebe4b5a97464dd851910efc3002d96",
+    "files": [
+      "ckpts/ss_dec_conv3d_16l8_fp16.json",
+      "ckpts/ss_dec_conv3d_16l8_fp16.safetensors"
+    ]
+  },
+  "dino-l": {
+    "repo": "facebook/dinov3-vitl16-pretrain-lvd1689m",
+    "revision": "ea8dc2863c51be0a264bab82070e3e8836b02d51",
+    "files": [
+      "config.json",
+      "model.safetensors",
+      "preprocessor_config.json"
+    ]
+  },
+  "idol": {
+    "repo": "speridlabs/idol",
+    "revision": "2731c2291fc65a797c5cb627a5e5526fc1490902",
+    "files": [
+      "config.json",
+      "denoiser.safetensors",
+      "decoder.safetensors",
+      "decoder_gs.safetensors"
+    ]
+  },
+  "dino-h": {
+    "repo": "facebook/dinov3-vith16plus-pretrain-lvd1689m",
+    "revision": "c807c9eeea853df70aec4069e6f56b28ddc82acc",
+    "files": [
+      "config.json",
+      "model.safetensors",
+      "preprocessor_config.json"
+    ]
+  },
+  "flux": {
+    "repo": "black-forest-labs/FLUX.2-dev",
+    "revision": "26afe3a78bb242c0a8bb181dcc8937bb16e5c66c",
+    "files": [
+      "vae/config.json",
+      "vae/diffusion_pytorch_model.safetensors"
+    ]
+  },
+  "hi3d": {
+    "repo": "mlx-community/Hi3Dv1.0-mlx",
+    "revision": "195cfd9974fc9d22094d8b14ef823da08c0d1402",
+    "patterns": [
+      "*.json",
+      "*.safetensors",
+      "LICENSE*",
+      "NOTICE*",
+      "README.md"
+    ]
+  },
+  "hunyuan-paint": {
+    "repo": "tencent/Hunyuan3D-2",
+    "revision": "9cd649ba6913f7a852e3286bad86bfa9a2d83dcf",
+    "files": [
+      "hunyuan3d-paint-v2-0/unet/config.json",
+      "hunyuan3d-paint-v2-0/unet/diffusion_pytorch_model.safetensors",
+      "hunyuan3d-paint-v2-0/vae/config.json",
+      "hunyuan3d-paint-v2-0/vae/diffusion_pytorch_model.safetensors"
+    ]
+  },
+  "mv-adapter": {
+    "repo": "huanngzh/mv-adapter",
+    "revision": "6de4033df6b53366f3c009d22f5ec434bb55e59f",
+    "files": [
+      "mvadapter_ig2mv_sd21.safetensors"
+    ]
+  },
+  "sd21": {
+    "repo": "sd2-community/stable-diffusion-2-1-base",
+    "revision": "4e63672c03103b6c636b8fb4119ba982469b2955",
+    "files": [
+      "model_index.json",
+      "scheduler/scheduler_config.json",
+      "tokenizer/vocab.json",
+      "tokenizer/merges.txt",
+      "tokenizer/tokenizer_config.json",
+      "tokenizer/special_tokens_map.json",
+      "text_encoder/config.json",
+      "text_encoder/model.safetensors",
+      "unet/config.json",
+      "unet/diffusion_pytorch_model.safetensors",
+      "vae/config.json",
+      "vae/diffusion_pytorch_model.safetensors",
+      "feature_extractor/preprocessor_config.json"
+    ]
+  }
+}

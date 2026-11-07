@@ -1,0 +1,41 @@
+{
+  "subject": "Mireling",
+  "concept": {
+    "source_image_sha256": "c17789eda7630bdbd74d2077d9c8647ad144b4118befc2ae651c93bf73194ef3",
+    "label": "Concept art",
+    "display": "Original reference, static first column"
+  },
+  "models": [
+    {
+      "label": "Hunyuan 2.1",
+      "detail": "Hunyuan Paint 2.0 \u00b7 2K",
+      "triangles": 10000,
+      "yaw": 0,
+      "source_glb_sha256": "88749f1115d55217589b033070498204be6a6ff9cfd92e5d570329683556b06c"
+    },
+    {
+      "label": "TRELLIS.2",
+      "detail": "Native texture \u00b7 1K",
+      "triangles": 199999,
+      "yaw": 0,
+      "source_glb_sha256": "2e5c431a3810cc2563ec6cf8bc95be8e2579df4ed3e1245830d8a299bd7a8841"
+    },
+    {
+      "label": "GLGMesh Production V2",
+      "detail": "Splat \u2192 GauStudio \u2192 mesh \u00b7 4K",
+      "triangles": 9999,
+      "yaw": -1.1266518927308775,
+      "source_glb_sha256": "2111e983c059da45d63cc59029816a7e5996bd904ec2698fd299202698366a4d"
+    }
+  ],
+  "render": {
+    "width": 1600,
+    "height": 560,
+    "frames": 120,
+    "duration_ms": 8000,
+    "loop": true,
+    "equal_display_height": true,
+    "appearance": "Embedded base color, unlit display; no texture edits",
+    "renderer": "Godot compatibility"
+  }
+}

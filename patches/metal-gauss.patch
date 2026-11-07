@@ -1,0 +1,80 @@
+diff --git a/metal_gauss/csrc/rasterize.metal b/metal_gauss/csrc/rasterize.metal
+index 3acdd38..aeabb46 100644
+--- a/metal_gauss/csrc/rasterize.metal
++++ b/metal_gauss/csrc/rasterize.metal
+@@ -374,3 +374,27 @@ kernel void pack_intersections(
+     p_conic[i]   = conic[g];
+     p_rgb[i]     = color[g];
+ }
++
++// Task adaptation: GauStudio median depth, crossing absolute transmittance 0.5.
++kernel void median_forward(
++ device const float2* uv [[buffer(0)]], device const packed_float3* conic [[buffer(1)]],
++ device const float* opacity [[buffer(2)]], device const float* depth [[buffer(3)]],
++ device const int* ids [[buffer(4)]], device const int* offsets [[buffer(5)]],
++ device float* result [[buffer(6)]], constant uint4& dims [[buffer(7)]],
++ uint2 gid [[thread_position_in_grid]]) {
++ if(gid.x>=dims.x || gid.y>=dims.y) return;
++ uint tid=(gid.y/dims.z)*dims.w+gid.x/dims.z;
++ float2 px=float2(gid)+0.5f; float T=1.0f; float z=0.0f;
++ for(int j=offsets[tid]; j<offsets[tid+1]; ++j){
++  int i=ids[j]; float2 d=px-uv[i]; float3 c=conic[i];
++  float power=-0.5f*(c.x*d.x*d.x+2*c.y*d.x*d.y+c.z*d.y*d.y);
++  if(power>0.0f) continue;
++  float a=min(0.99f,opacity[i]*exp(power));
++  if(a<1.0f/255.0f) continue;
++  float nt=T*(1-a);
++  if(nt<0.0001f) break;
++  if(T>0.5f && nt<0.5f){ z=depth[i]; break; }
++  T=nt;
++ }
++ result[gid.y*dims.x+gid.x]=z;
++}
+diff --git a/metal_gauss/csrc/rasterize.mm b/metal_gauss/csrc/rasterize.mm
+index 96f964e..48f1352 100644
+--- a/metal_gauss/csrc/rasterize.mm
++++ b/metal_gauss/csrc/rasterize.mm
+@@ -515,7 +515,30 @@ std::vector<torch::Tensor> bin_write(torch::Tensor uv, torch::Tensor rxy,
+     return {keys, ids};
+ }
+ 
++
++torch::Tensor median_forward(torch::Tensor uv, torch::Tensor conic,
++ torch::Tensor opacity, torch::Tensor depth, torch::Tensor ids, torch::Tensor offsets,
++ int64_t W, int64_t H, int64_t tile, int64_t tx) {
++ for(auto& t:{uv,conic,opacity,depth,ids,offsets}) checkMPS(t,"median input");
++ auto out=torch::zeros({H,W},uv.options());
++ @autoreleasepool {
++  id<MTLCommandBuffer> cb=torch::mps::get_command_buffer();
++  dispatch_sync(torch::mps::get_dispatch_queue(), ^{
++   id<MTLComputeCommandEncoder> enc=[cb computeCommandEncoder];
++   [enc setComputePipelineState:pso("median_forward")];
++   SETBUF(enc,uv,0); SETBUF(enc,conic,1); SETBUF(enc,opacity,2);
++   SETBUF(enc,depth,3); SETBUF(enc,ids,4); SETBUF(enc,offsets,5); SETBUF(enc,out,6);
++   uint dims[4]={(uint)W,(uint)H,(uint)tile,(uint)tx};
++   [enc setBytes:dims length:sizeof(dims) atIndex:7];
++   [enc dispatchThreads:MTLSizeMake(W,H,1) threadsPerThreadgroup:MTLSizeMake(16,16,1)];
++   [enc endEncoding]; torch::mps::commit();
++  });
++ }
++ return out;
++}
++
+ PYBIND11_MODULE(TORCH_EXTENSION_NAME, m) {
++ m.def("median_forward", &median_forward);
+     m.def("init", &init, "compile the Metal library from source");
+     m.def("rasterize_forward", &rasterize_forward);
+     m.def("rasterize_backward", &rasterize_backward);
+diff --git a/metal_gauss/metal_backend.py b/metal_gauss/metal_backend.py
+index 83eaf63..7ac78ac 100644
+--- a/metal_gauss/metal_backend.py
++++ b/metal_gauss/metal_backend.py
+@@ -549,7 +549,7 @@ def render(means, quats, scales, opacities, sh, K, viewmat, W, H,
+         uv.retain_grad()
+ 
+     return rgb, alpha, {
+-        "uv": uv,
++        "uv": uv, "conic": conic, "depth": depth, "gauss_ids": gauss_ids, "tile_offsets": tile_offsets, "tiles_x": tiles_x,
+         "tiles": int(tile_offsets.numel() - 1),
+         "isect_total": int(gauss_ids.numel()),
+         "isect_dropped": 0,

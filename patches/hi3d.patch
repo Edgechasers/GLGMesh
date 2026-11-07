@@ -1,0 +1,13 @@
+diff --git a/mlx_vlm/models/hi3d/pipeline.py b/mlx_vlm/models/hi3d/pipeline.py
+index bcc6856..cf6fd46 100644
+--- a/mlx_vlm/models/hi3d/pipeline.py
++++ b/mlx_vlm/models/hi3d/pipeline.py
+@@ -71,6 +71,8 @@ def sample(
+         v2 = velocity(transformer, x - step * v, nxt, cond, grid)
+         x = x - step * (0.5 * (v + v2))
+         mx.eval(x)
++        if not bool(mx.all(mx.isfinite(x)).item()):
++            raise FloatingPointError(f"Non-finite Hi3D sample at step {i+1}")
+         if progress is not None:
+             progress(i + 1, steps)
+     config = transformer.config
